@@ -1,3 +1,7 @@
-function Attack takes nothing returns nothing
+library AAA initializer Attack
 
-endfunction
+  function Attack takes nothing returns nothing
+    call BJDebugMsg("ok")
+  endfunction
+
+endlibrary
