@@ -44,6 +44,13 @@ library TreeSentinel initializer init
     set tmr0 = null
   endfunction
 
+  function State takes nothing returns nothing
+    local timer tmr0 = GetExpiredTimer()
+    local integer i0 = GetHandleId(tmr0)
+    local unit u0 = LoadUnitHandle(ComHash,i0,0)
+
+  endfunction
+
   function init takes nothing returns nothing
     local unit u0
     local player p0 = Player(PLAYER_NEUTRAL_AGGRESSIVE)
@@ -55,12 +62,12 @@ library TreeSentinel initializer init
     set u0 = CreateUnit(p0,'Hlgr',-195.9,-234.7,0)//新建BOSS单位
     call TriggerRegisterUnitInRangeSimple(tgr,400,u0)//接近BOSS 400距离时触发
     call TriggerAddAction(tgr,function A)
-    call TimerStart(tmr0,0.5,true,function B)//开启计时器
+    call TimerStart(tmr0,0.5,true,function State)//开启计时器
     call SaveUnitHandle(ComHash,i0,0,u0)//保存单位至哈希表
     call SaveReal(ComHash,i0,1,2523.3)//保存X轴至哈希表
     call SaveReal(ComHash,i0,2,-301.7)//保存Y轴至哈希表
-    call AddSpecialEffect("units\\orc\\SentryWard\\SentryWard.mdl",-195.9,-234.7)
-    call AddSpecialEffect("units\\orc\\SentryWard\\SentryWard.mdl",2523.3,-301.7)
+    // call AddSpecialEffect("units\\orc\\SentryWard\\SentryWard.mdl",-195.9,-234.7)
+    // call AddSpecialEffect("units\\orc\\SentryWard\\SentryWard.mdl",2523.3,-301.7)
     //排泄↓
     set u0 = null
     set tmr0 = null
