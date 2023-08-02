@@ -6,18 +6,23 @@ function Attack takes nothing returns nothing
     local unit u1 = GetAttacker()//攻击单位
     local real Mp = GetUnitState(u1,UNIT_STATE_MANA)
     local real sp = 10
-    if Mp>0 then
+    if IsUnitType(u1,UNIT_TYPE_HERO) == true then
+       if Mp>0 then
         if Mp>sp then
             set Mp = Mp-sp
-          else
+           else
             set Mp = 0
-        endif
+           endif
         call SetUnitState(u1,UNIT_STATE_MANA,Mp)
+        else
+           call IssueImmediateOrder(u1,"stop")
+        endif
+        call SaveReal(AbeHash,GetHandleId(u1),0,0)
       else
-        call IssueImmediateOrder(u1,"stop")
+        //call BJDebugMsg("英雄被打了")
     endif
-    //call BJDebugMsg("被打了")
-    call SaveReal(AbeHash,GetHandleId(u1),0,0)
+
+    
 
 endfunction
 
@@ -59,7 +64,7 @@ function Death takes nothing returns nothing
     local trigger trg2
     if IsUnitType(u0,UNIT_TYPE_HERO) == true then
           set tmr = CreateTimer()
-          call TimerStart(tmr,3.00,false,function Resurgence)//开启复活计时器
+          call TimerStart(tmr,5.00,false,function Resurgence)//开启复活计时器
           call SaveUnitHandle(ComHash,GetHandleId(tmr),0,u0)//给计时器绑定单位
           call CinematicFadeBJ(bj_CINEFADETYPE_FADEOUTIN, 3.00, "ReplaceableTextures\\CameraMasks\\SpecialSplatMask.blp", 0, 0, 0, 10.00)//显示字幕
           call SetUnitX(unit_1,ux)
@@ -325,6 +330,7 @@ function init takes nothing returns nothing
     local trigger tgr6 = CreateTrigger()
     local trigger tgr7 = CreateTrigger()
     local trigger tgr8 = CreateTrigger()
+    local trigger tgr9 = CreateTrigger()
     local player p = Player(0)
     local timer tmr = CreateTimer()
     local unit u = CreateUnit(p,'Hpb1',-2502.5,2640.0,90)    
@@ -356,7 +362,9 @@ function init takes nothing returns nothing
     call TriggerRegisterUnitEvent(tgr7,u,EVENT_UNIT_SPELL_EFFECT)
     call TriggerAddAction(tgr7,function PickupSoul)
     call TriggerRegisterPlayerChatEvent(tgr8,p,"1",true)
-
+    call TriggerAddAction(tgr8,function Command)
+    call TriggerRegisterUnitEvent(tgr9,u,EVENT_UNIT_ATTACKED)
+    call TriggerAddAction(tgr9,function Attack)
     call TimerStart(tmr,0.05,true,function Sp)//开启精力条检测计时器
     call SaveUnitHandle(AbeHash,GetHandleId(tmr),0,u)//索引0存储单位
     call SaveReal(AbeHash,GetHandleId(u),0,1.00)//索引1存储累计值
