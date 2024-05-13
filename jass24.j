@@ -12,7 +12,7 @@ library demo initializer test
         return false
     endfunction
     function test takes nothing returns nothing 
-        local trigger t = CreateTrigger() //创建触发
+        local trigger t = CreateTrigger() 
         local trigger t2 = CreateTrigger()
         local filterfunc ff = Filter(function bbb)
         local conditionfunc cf = Condition(function bbb)
