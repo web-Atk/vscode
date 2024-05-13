@@ -1,5 +1,5 @@
-#ifndef BJDebugMsg
-#define BJDebugMsgInclude
+#ifndef BJDebugMsgInclude
+#define BJDebugMsg
 // library JhLib  
 // function UnitDamagePointLocInclude takes unit whichUnit, real delay, real radius, real x, real y, real amount, boolean attack, boolean ranged, attacktype attackType, damagetype damageType, weapontype weaponType returns boolean  
 //     return true  
@@ -11,6 +11,7 @@ function BJDebugMsgInclude takes string msg returns nothing
         set i = i + 1
         exitwhen i == bj_MAX_PLAYERS
     endloop
+    // call DisplayTimedTextToPlayer(Player(0), 0, 0, 60, msg)
 endfunction 
 // endlibrary  
 
