@@ -3,18 +3,106 @@ library A initializer init
     hashtable HashSkill = InitHashtable() 
   endglobals 
 
+  function JumpD takes nothing returns nothing 
+    local integer TmrAds = GetHandleId(GetExpiredTimer()) 
+    local unit u0 = LoadUnitHandle(HashSkill, TmrAds, 0) 
+    local real distance = LoadReal(HashSkill, TmrAds, 1) //总距离    
+    local real ux1 = GetUnitX(u0) 
+    local real uy2 = GetUnitY(u0) 
+    local real ax1 = LoadReal(HashSkill, TmrAds, 2) //技能X轴    
+    local real ay2 = LoadReal(HashSkill, TmrAds, 3) //技能Y轴    
+    local real speed = LoadReal(HashSkill, TmrAds, 4) //速率 
+    local real range = LoadReal(HashSkill, TmrAds, 5) //已移动距离    
+    local real angle = LoadReal(HashSkill, TmrAds, 6) //跳跃角度    
+    local real height = LoadReal(HashSkill, TmrAds, 7) //最大高度 
+    // local integer icUnt = LoadInteger(HashSkill, TmrAds, 8) //建筑判断法所需单位类型 
+    local unit u1 = LoadUnitHandle(HashSkill, TmrAds, 8) //探路马甲 
+    local real r0 
+    local real r1 
+    local real ux3 
+    local real uy4 
+    local boolean b0 = false 
+    local boolean b1
+    set ux3 = ux1 + speed * (CosBJ(angle)) 
+    set uy4 = uy2 + speed * (SinBJ(angle)) 
+    set b1 = IssueBuildOrderById(u1, GetUnitTypeId(u1), ux3, uy4)
+    set range = range + speed 
+    call SaveReal(HashSkill, TmrAds, 5, range) 
+    set r0 = height / Pow(distance, 2) 
+    set r1 = r0 * range * (range - distance) 
+    if range >= distance then 
+      set b0 = true 
+    endif 
+    call BJDebugMsg(GetUnitName(u1))
+    if b1 == true then 
+      call DoNothing()
+    else 
+      set b0 = true 
+      call BJDebugMsg("无法建筑")
+    endif 
+    if b0 == true then 
+      call KillUnit(u1) 
+      call RemoveUnit(u1) 
+      call SetUnitFlyHeight(u0, 0, 0) 
+      call FlushChildHashtable(HashSkill, TmrAds) 
+      call DestroyTimer(GetExpiredTimer()) 
+    else 
+      call SetUnitX(u0, ux3) 
+      call SetUnitY(u0, uy4) 
+      call SetUnitFlyHeight(u0, r1, 0) 
+    endif 
+    //排泄    
+    set u0 = null 
+    set u1 = null 
+  endfunction 
+
+  function JumpC takes unit u0, real ax1, real ay2 returns nothing 
+    local player ply = GetOwningPlayer(u0) 
+    local real ux1 = GetUnitX(u0) 
+    local real uy2 = GetUnitY(u0) 
+    local real r0 = 200 
+    local real height = r0 * 4 - r0 * 4 * 2 
+    local real distance = SquareRoot(Pow(ux1 - ax1, 2) + Pow(uy2 - ay2, 2)) //两点距离   
+    local real angle = bj_RADTODEG * Atan2(ay2 - uy2, ax1 - ux1) //技能释放方向    
+    local real speed = 1000 / 50 //速率    
+    local timer tmr = CreateTimer() 
+    local integer icUnt = 'h000' 
+    local integer TmrAds = GetHandleId(tmr) 
+    local unit u1 = CreateUnit(ply, icUnt, ux1, uy2, 0) 
+    call UnitAddAbility(u1, 'Aeth')
+    call UnitMakeAbilityPermanent(u1, true, 'Aeth') 
+    call UnitAddAbility(u1, 'Aloc')
+    call UnitMakeAbilityPermanent(u1, true, 'Aloc') 
+    call TimerStart(tmr, 0.02, true, function JumpD) 
+    call SaveUnitHandle(HashSkill, TmrAds, 0, u0) 
+    call SaveReal(HashSkill, TmrAds, 1, distance) //总距离    
+    call SaveReal(HashSkill, TmrAds, 2, ax1) //技能X轴    
+    call SaveReal(HashSkill, TmrAds, 3, ay2) //技能Y轴    
+    call SaveReal(HashSkill, TmrAds, 4, speed) //速率    
+    call SaveReal(HashSkill, TmrAds, 5, 0) //已移动距离    
+    call SaveReal(HashSkill, TmrAds, 6, angle) //跳跃角度    
+    call SaveReal(HashSkill, TmrAds, 7, height) //最大高度  
+    // call SaveInteger(HashSkill, TmrAds, 8, icUnt) //建筑判断法所需单位类型 
+    call SaveUnitHandle(HashSkill, TmrAds, 8, u1) 
+    call UnitAddAbility(u0, 'Amrf') 
+    call UnitRemoveAbility(u0, 'Amrf') 
+    //排泄    
+    set u0 = null 
+    set tmr = null 
+  endfunction 
+
   function JumpB takes nothing returns nothing 
     local integer TmrAds = GetHandleId(GetExpiredTimer()) 
     local unit u0 = LoadUnitHandle(HashSkill, TmrAds, 0) 
-    local real distance = LoadReal(HashSkill, TmrAds, 1) //总距离 
+    local real distance = LoadReal(HashSkill, TmrAds, 1) //总距离    
     local real ux1 = GetUnitX(u0) 
     local real uy2 = GetUnitY(u0) 
-    local real ax1 = LoadReal(HashSkill, TmrAds, 2) //技能X轴 
-    local real ay2 = LoadReal(HashSkill, TmrAds, 3) //技能Y轴 
-    local real vly = LoadReal(HashSkill, TmrAds, 4) //初速 
-    local real range = LoadReal(HashSkill, TmrAds, 5) //已移动距离 
-    local real angle = LoadReal(HashSkill, TmrAds, 6) //跳跃角度 
-    local real speed = 1500 / 50 //速率 
+    local real ax1 = LoadReal(HashSkill, TmrAds, 2) //技能X轴    
+    local real ay2 = LoadReal(HashSkill, TmrAds, 3) //技能Y轴    
+    local real vly = LoadReal(HashSkill, TmrAds, 4) //初速    
+    local real range = LoadReal(HashSkill, TmrAds, 5) //已移动距离    
+    local real angle = LoadReal(HashSkill, TmrAds, 6) //跳跃角度    
+    local real speed = 1500 / 50 //速率    
     local real ux3 
     local real uy4 
     local real hight 
@@ -25,10 +113,10 @@ library A initializer init
         set vly = vly + 10 
       endif 
     endif 
-    //call BJDebugMsg(R2S(angle)) 
+    //call BJDebugMsg(R2S(angle))    
     call SaveReal(HashSkill, TmrAds, 4, vly) 
-    //    set ux3 =(ux1+(CosBJ(angle))*vly) 
-    //    set uy4 =(uy2+(SinBJ(angle))*vly)       
+    //    set ux3 =(ux1+(CosBJ(angle))*vly)    
+    //    set uy4 =(uy2+(SinBJ(angle))*vly)          
     set ux3 = ux1 + vly * (CosBJ(angle)) 
     set uy4 = uy2 + vly * (SinBJ(angle)) 
     set range = range + vly 
@@ -45,7 +133,7 @@ library A initializer init
       call SetUnitY(u0, uy4) 
       call SetUnitFlyHeight(u0, hight, 0) 
     endif 
-    //排泄 
+    //排泄    
     set u0 = null 
        
   endfunction 
@@ -55,24 +143,24 @@ library A initializer init
     local real ux1 = GetUnitX(u0) 
     local real uy2 = GetUnitY(u0) 
     local real distance = SquareRoot(Pow(ux1 - ax1, 2) + Pow(uy2 - ay2, 2)) 
-    local real angle = bj_RADTODEG * Atan2(ay2 - uy2, ax1 - ux1) //技能释放方向 
+    local real angle = bj_RADTODEG * Atan2(ay2 - uy2, ax1 - ux1) //技能释放方向    
     local timer tmr = CreateTimer() 
     local integer TmrAds = GetHandleId(tmr) 
     if distance > 600 then 
       set distance = 600 
     endif 
-    //call BJDebugMsg(GetAbilityName(GetSpellAbilityId())) 
+    //call BJDebugMsg(GetAbilityName(GetSpellAbilityId()))    
     call TimerStart(tmr, 0.02, true, function JumpB) 
     call SaveUnitHandle(HashSkill, TmrAds, 0, u0) 
-    call SaveReal(HashSkill, TmrAds, 1, distance) //总距离 
-    call SaveReal(HashSkill, TmrAds, 2, ax1) //技能X轴 
-    call SaveReal(HashSkill, TmrAds, 3, ay2) //技能Y轴 
-    call SaveReal(HashSkill, TmrAds, 4, 10) //初速 
-    call SaveReal(HashSkill, TmrAds, 5, 0) //已移动距离 
-    call SaveReal(HashSkill, TmrAds, 6, angle) //跳跃角度 
+    call SaveReal(HashSkill, TmrAds, 1, distance) //总距离    
+    call SaveReal(HashSkill, TmrAds, 2, ax1) //技能X轴    
+    call SaveReal(HashSkill, TmrAds, 3, ay2) //技能Y轴    
+    call SaveReal(HashSkill, TmrAds, 4, 10) //初速    
+    call SaveReal(HashSkill, TmrAds, 5, 0) //已移动距离    
+    call SaveReal(HashSkill, TmrAds, 6, angle) //跳跃角度    
     call UnitAddAbility(u0, 'Amrf') 
     call UnitRemoveAbility(u0, 'Amrf') 
-    //排泄 
+    //排泄    
     set u0 = null 
     set tmr = null 
        
@@ -86,14 +174,14 @@ library A initializer init
     local player p0 = GetOwningPlayer(u0) 
     local real ux1 = GetUnitX(u0) 
     local real uy2 = GetUnitY(u0) 
-    local real distance = LoadReal(HashSkill, TmrAds, 1) //总距离 
-    local real vly = LoadReal(HashSkill, TmrAds, 2) //初速 
-    local real range = LoadReal(HashSkill, TmrAds, 3) //已移动距离 
-    local real angle = LoadReal(HashSkill, TmrAds, 4) //技能释放方向 
-    local integer nub = LoadInteger(HashSkill, UAds, 0) //跳跃次数 
-    local real speed = 1500 / 50 //速率 
-    local real sp0 = 300 //伪范围 
-    local real sp1 = 120 //真范围 
+    local real distance = LoadReal(HashSkill, TmrAds, 1) //总距离    
+    local real vly = LoadReal(HashSkill, TmrAds, 2) //初速    
+    local real range = LoadReal(HashSkill, TmrAds, 3) //已移动距离    
+    local real angle = LoadReal(HashSkill, TmrAds, 4) //技能释放方向    
+    local integer nub = LoadInteger(HashSkill, UAds, 0) //跳跃次数    
+    local real speed = 1500 / 50 //速率    
+    local real sp0 = 300 //伪范围    
+    local real sp1 = 120 //真范围    
     local real damage = 10 
     local group gp0 = CreateGroup() 
     local real ux3 
@@ -116,7 +204,7 @@ library A initializer init
     call SaveReal(HashSkill, TmrAds, 3, range) 
     set hight = (range / distance) * 180 
     set hight = ModuloReal(ModuloReal(hight, 360) + 360, 360) 
-    set hight = 50 * SinBJ(hight) //高度50 
+    set hight = 50 * SinBJ(hight) //高度50    
     if range >= distance then 
       call SetUnitFlyHeight(u0, 0, 0) 
       if nub >= 3 then 
@@ -124,10 +212,10 @@ library A initializer init
         call FlushChildHashtable(HashSkill, TmrAds) 
         call DestroyTimer(GetExpiredTimer()) 
       else 
-        call SaveReal(HashSkill, TmrAds, 2, 10) //初速 
-        call SaveReal(HashSkill, TmrAds, 3, 0) //已移动距离 
+        call SaveReal(HashSkill, TmrAds, 2, 10) //初速    
+        call SaveReal(HashSkill, TmrAds, 3, 0) //已移动距离    
         set nub = nub + 1 
-        call SaveInteger(HashSkill, UAds, 0, nub) //跳跃次数 
+        call SaveInteger(HashSkill, UAds, 0, nub) //跳跃次数    
       endif 
     else 
       call SetUnitX(u0, ux3) 
@@ -151,7 +239,7 @@ library A initializer init
         call GroupRemoveUnit(gp0, target) 
       endloop 
     endif 
-    //排泄 
+    //排泄    
     call DestroyGroup(gp0) 
     set gp0 = null 
     set u0 = null 
@@ -165,7 +253,7 @@ library A initializer init
     local player p0 = GetOwningPlayer(u0) 
     local real ux1 = GetUnitX(u0) 
     local real uy2 = GetUnitY(u0) 
-    local real angle = bj_RADTODEG * Atan2(ay2 - uy2, ax1 - ux1) //技能释放方向 
+    local real angle = bj_RADTODEG * Atan2(ay2 - uy2, ax1 - ux1) //技能释放方向    
     local real ux3 = ux1 + 40 * (CosBJ(angle)) 
     local real uy4 = uy2 + 40 * (SinBJ(angle)) 
     local real distance = 200 
@@ -177,19 +265,19 @@ library A initializer init
     call SetUnitY(u2, uy4) 
     call TimerStart(tmr, 0.02, true, function WaveB) 
     call SaveUnitHandle(HashSkill, TmrAds, 0, u2) 
-    call SaveReal(HashSkill, TmrAds, 1, distance) //总距离 
-    call SaveReal(HashSkill, TmrAds, 2, 10) //初速 
-    call SaveReal(HashSkill, TmrAds, 3, 0) //已移动距离 
-    call SaveReal(HashSkill, TmrAds, 4, angle) //技能释放方向 
-    call SaveInteger(HashSkill, UAds, 0, 0) //跳跃次数 
-    //排泄 
+    call SaveReal(HashSkill, TmrAds, 1, distance) //总距离    
+    call SaveReal(HashSkill, TmrAds, 2, 10) //初速    
+    call SaveReal(HashSkill, TmrAds, 3, 0) //已移动距离    
+    call SaveReal(HashSkill, TmrAds, 4, angle) //技能释放方向    
+    call SaveInteger(HashSkill, UAds, 0, 0) //跳跃次数    
+    //排泄    
     set u0 = null 
     set u2 = null 
     set tmr = null 
     set p0 = null 
   endfunction 
 
-  //========================================================================================== 
+  //==========================================================================================    
 
   function Spell takes nothing returns nothing 
     local unit u0 = GetTriggerUnit() 
@@ -198,10 +286,10 @@ library A initializer init
     local integer aLv = GetUnitAbilityLevel(u0, ab0) 
     local real ax1 = GetSpellTargetX() 
     local real ay2 = GetSpellTargetY() 
-    if ab0 == 'A001' then //跳跃技能 
-      call JumpA(u0, ax1, ay2) 
+    if ab0 == 'A001' then //跳跃技能    
+      call JumpC(u0, ax1, ay2) 
     endif 
-    if ab0 == 'A002' then //海浪技能 
+    if ab0 == 'A002' then //海浪技能    
       call WaveA(u0, ax1, ay2, aLv) 
     endif 
   endfunction 
@@ -218,9 +306,9 @@ library A initializer init
     call UnitAddAbility(u0, 'A002') 
     call UnitMakeAbilityPermanent(u0, true, 'A002') 
     call TriggerRegisterUnitEvent(trg, u0, EVENT_UNIT_SPELL_EFFECT) 
-    //call TriggerAddCondition 
+    //call TriggerAddCondition    
     call TriggerAddAction(trg, function Spell) 
-    //排泄 
+    //排泄    
     set u0 = null 
 
   endfunction 
