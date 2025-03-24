@@ -2,6 +2,7 @@ library LibA initializer init
     globals 
         hashtable HashSys = InitHashtable() 
         unit array hero 
+        unit array bulid
         force Olplys = CreateForce() //在线玩家组                    
         fogmodifier array vmd 
         fogmodifier array jdc 
@@ -75,9 +76,16 @@ library LibA initializer init
     //出售
     function Sell takes nothing returns nothing
         local unit u0 = GetTriggerUnit()
-        local integer icUnt = GetUnitTypeId(GetSoldUnit())
-        local player ply = GetOwningPlayer(GetSoldUnit())
-        // call BJDebugMsg("出售单位为：" + GetUnitName(u0))
+        local unit u1 = GetSoldUnit()
+        local integer icUnt = GetUnitTypeId(u1)
+        local player ply = GetOwningPlayer(u1)
+        if icUnt == 'e00I' then
+            call KillUnit(u1)
+            call RemoveUnit(u1)
+            call ClearSelection() 
+            call SelectUnit(bulid[3], true) 
+            call BJDebugMsg("出售单位为：" + GetUnitName(u0))
+        endif
     endfunction
 
     //招式名
@@ -134,7 +142,7 @@ library LibA initializer init
         if PlyIdx == 1 or PlyIdx == 2 or PlyIdx == 3 then //玩家2、3、4出生点       
             // call SetUnitX(u0, -6126.8)       
             // call SetUnitY(u0, -6262.6)       
-            set pt = Location( - 6126.8, - 6262.6) 
+            set pt = Location(- 6126.8, - 6262.6) 
         endif 
         if PlyIdx == 5 or PlyIdx == 6 or PlyIdx == 7 then //玩家6、7、8出生点       
             // call SetUnitX(u0, 3506.0)       
@@ -144,7 +152,7 @@ library LibA initializer init
         if PlyIdx == 9 or PlyIdx == 10 or PlyIdx == 11 then //玩家10、11、12出生点       
             // call SetUnitX(u0, -1601.4)       
             // call SetUnitY(u0, 1319.8)       
-            set pt = Location( - 1601.4, 1319.8) 
+            set pt = Location(- 1601.4, 1319.8) 
         endif 
         return pt 
     endfunction 
@@ -183,22 +191,22 @@ library LibA initializer init
             call GroupRemoveUnit(ugp1, target) 
         endloop
         call DestroyGroup(ugp1)
+        //~
+        set ugp1 = null
     endfunction
 
-    //失败动作2
-    function Failure2 takes player ply returns nothing
-        if ply == Player(0) then
-            call CustomDefeatBJ(Player(1), "木叶忍者村被摧毁了！你们失败了！")
-            call CustomDefeatBJ(Player(2), "木叶忍者村被摧毁了！你们失败了！")
-            call CustomDefeatBJ(Player(3), "木叶忍者村被摧毁了！你们失败了！")
-        endif
+    //胜利动作1
+    function Victory1 takes nothing returns nothing
+        call CustomVictoryBJ(Player(1), true, true)
+        call CustomVictoryBJ(Player(2), true, true)
+        call CustomVictoryBJ(Player(3), true, true)
     endfunction
 
     //失败动作1
     function Failure1 takes player ply returns nothing
         local group ugp = CreateGroup() 
         local integer i = 0
-        if ply == Player(0) then
+        if ply == Player(0) then //木叶失败
             set i = 1
             call GroupEnumUnitsOfPlayer(ugp, Player(0), null)
             call ForGroupNew(ugp, i)
@@ -209,7 +217,42 @@ library LibA initializer init
             call DisableTrigger(gg_trg_Spawn_Purple_Middle_1)
             call DisableTrigger(gg_trg_Spawn_Purple_middle_2)
             call DisableTrigger(gg_trg_Spawn_Purple_middle_3)
-            call Failure2(ply)
+            call CustomDefeatBJ(Player(1), "木叶忍者村被摧毁！你们失败了！")
+            call CustomDefeatBJ(Player(2), "木叶忍者村被摧毁！你们失败了！")
+            call CustomDefeatBJ(Player(3), "木叶忍者村被摧毁！你们失败了！")
+            call DisplayTimedTextToForce(GetPlayersAll(), 30, "木叶忍者村被摧毁了！")
+        endif
+        if ply == Player(4) then //雾隐失败
+            set i = 1
+            call GroupEnumUnitsOfPlayer(ugp, Player(4), null)
+            call ForGroupNew(ugp, i)
+            call DisableTrigger(gg_trg_Spawn_Pink_Middle_1)
+            call DisableTrigger(gg_trg_Spawn_Pink_middle_2)
+            call DisableTrigger(gg_trg_Spawn_Pink_Middle_3)
+            call DisableTrigger(gg_trg_Spawn_pink_north_1)
+            call DisableTrigger(gg_trg_Spawn_pink_north_2)
+            call DisableTrigger(gg_trg_Spawn_pink_west_1)
+            call DisableTrigger(gg_trg_Spawn_pink_west_2)
+            call CustomDefeatBJ(Player(5), "雾隐忍者村被摧毁！你们失败了！")
+            call CustomDefeatBJ(Player(6), "雾隐忍者村被摧毁！你们失败了！")
+            call CustomDefeatBJ(Player(7), "雾隐忍者村被摧毁！你们失败了！")
+            call DisplayTimedTextToForce(GetPlayersAll(), 30, "雾隐忍者村被摧毁！")
+        endif
+        if ply == Player(8) then //砂忍失败
+            set i = 1
+            call GroupEnumUnitsOfPlayer(ugp, Player(8), null)
+            call ForGroupNew(ugp, i)
+            call DisableTrigger(gg_trg_Spawn_Brown_middle_1)
+            call DisableTrigger(gg_trg_Spawn_Brown_middle_2)
+            call DisableTrigger(gg_trg_Spawn_brown_middle_3)
+            call DisableTrigger(gg_trg_Spawn_Brown_west_1)
+            call DisableTrigger(gg_trg_Spawn_brown_west_2)
+            call DisableTrigger(gg_trg_Spawn_brown_east_1)
+            call DisableTrigger(gg_trg_Spawn_brown_east_2)
+            call CustomDefeatBJ(Player(9), "砂忍者村被摧毁！你们失败了！")
+            call CustomDefeatBJ(Player(10), "砂忍者村被摧毁！你们失败了！")
+            call CustomDefeatBJ(Player(11), "砂忍者村被摧毁！你们失败了！")
+            call DisplayTimedTextToForce(GetPlayersAll(), 30, "砂忍者村被摧毁！")
         endif
     endfunction
 
@@ -254,12 +297,12 @@ library LibA initializer init
             set TmrIdx = GetHandleId(tmr) 
             call SaveUnitHandle(HashSys, TmrIdx, 0, u0) 
             call TimerStart(tmr, 10, false, function Revive) 
-            call DisplayTimedTextToPlayer(ply0, 0, 0, 2,((d + GetPlayerName(ply0)) + " |r阵亡！10秒后复活")) 
+            call DisplayTimedTextToPlayer(ply0, 0, 0, 2, ((d + GetPlayerName(ply0)) + " |r阵亡！10秒后复活")) 
             loop
                 exitwhen i == 11
                 set i = i + 1
-                call DisplayTimedTextToPlayer(Player(i), 0, 0, 10, (d + GetPlayerName(ply0) + "|c00ff3300 被 |r" +(k + GetPlayerName(ply1)) + "|r" + "|c00ff3300 杀死了!!|r "))
-                call DisplayTimedTextToPlayer(Player(i), 0, 0, 5, (k + GetPlayerName(ply1)) + "和他的盟友|r 获得" + "|CffD8D800" + I2S(30 * lv) + "|r" + "金钱")
+                call DisplayTimedTextToPlayer(Player(i), 0, 0, 10,(d + GetPlayerName(ply0) + "|c00ff3300 被 |r" + (k + GetPlayerName(ply1)) + "|r" + "|c00ff3300 杀死了!!|r "))
+                call DisplayTimedTextToPlayer(Player(i), 0, 0, 5,(k + GetPlayerName(ply1)) + "和他的盟友|r 获得" + "|CffD8D800" + I2S(30 * lv) + "|r" + "金钱")
                 if IsPlayerAlly(Player(i), ply1) == true then
                     call SetPlayerState(ply1, PLAYER_STATE_RESOURCE_GOLD, GetPlayerState(ply1, PLAYER_STATE_RESOURCE_GOLD) + 30 * lv)
                 endif
@@ -357,7 +400,7 @@ library LibA initializer init
         call SaveReal(HashSys, Idx, 0, f0) 
     
         if ModuloReal(f0, 15) == 0 then 
-            call BJDebugMsg("第" + R2S(f0) + "秒发兵") 
+            // call BJDebugMsg("第" + R2S(f0) + "秒发兵") 
             loop 
                 exitwhen lp1 == 2 
                 set lp1 = lp1 + 1 
@@ -385,6 +428,8 @@ library LibA initializer init
     function Leaves takes nothing returns nothing 
         local player ply = GetTriggerPlayer() 
         local integer i = - 1 
+        local string s = GetPlayerName(ply)
+        call SetPlayerName(ply, "|CffC0C0C0" + s + "（已离开）" + "|r")
         call ForceRemovePlayer(Olplys, ply)
         call ForForce(Olplys, function Control)
         loop 
@@ -401,11 +446,11 @@ library LibA initializer init
         local integer i = - 1 
         local integer i0 = - 1 
         local trigger array tgr 
-        local unit array bulid
         local timer tmr = CreateTimer() 
         set bulid[0] = CreateUnit(Player(0), 'hcas', - 6400, - 6656, 90)
-        // set bulid[1] = CreateUnit(Player(4), 'hcas', 3776, - 6784, 90)
-        // set bulid[2] = CreateUnit(Player(8), 'hcas', - 1600, 1728, 90)
+        set bulid[1] = CreateUnit(Player(4), 'hcas', 3776, - 6784, 90)
+        set bulid[2] = CreateUnit(Player(8), 'hcas', - 1600, 1728, 90)
+        set bulid[3] = CreateUnit(Player(0), 'nC25', - 6400, - 6656, 90)
         set tgr[1] = CreateTrigger() 
         set tgr[2] = CreateTrigger() 
         set tgr[3] = CreateTrigger() 
@@ -427,7 +472,7 @@ library LibA initializer init
                 set jdc[i] = CreateFogModifierRect(plys[i], FOG_OF_WAR_VISIBLE, gg_rct_jdc, false, false) 
                 call ForceAddPlayer(Olplys, plys[i]) //加入在线玩家组                    
                 call SetPlayerState(plys[i], PLAYER_STATE_RESOURCE_GOLD, 500) //初始资源                    
-                call FogModifierStart(vmd[i]) //启动选择英雄区域可见度修改器                            
+                call FogModifierStart(vmd[i]) //启动选择英雄区域可见度修改器                     
                 // call FogModifierStart(jdc[i])                    
                 call TriggerRegisterPlayerUnitEvent(tgr[1], plys[i], EVENT_PLAYER_UNIT_SELECTED, null) 
                 call TriggerRegisterPlayerChatEvent(tgr[3], plys[i], "-lvlup", false)
@@ -440,7 +485,7 @@ library LibA initializer init
             exitwhen i0 == 3
             set i0 = i0 + 1
             call TriggerRegisterUnitEvent(tgr[6], bulid[i0], EVENT_UNIT_DEATH)
-            call TriggerRegisterUnitEvent(tgr[7], bulid[i0], EVENT_UNIT_SELL_ITEM)
+            call TriggerRegisterUnitEvent(tgr[7], bulid[i0], EVENT_UNIT_SELL)
             // call BJDebugMsg(GetUnitName(store[i0]))
         endloop
         call TriggerAddAction(tgr[1], function SeltHeroA) 
