@@ -2,12 +2,15 @@ library LibA initializer init
     globals 
         hashtable HashSys = InitHashtable() 
         unit array hero 
-        unit array bulid
+        unit array build
         force Olplys = CreateForce() //在线玩家组                    
         fogmodifier array vmd 
         fogmodifier array jdc 
         unit array store 
         boolean wtf = false
+        constant integer PLAYER_GROUP_WOOD_LEAF = 0 //木叶阵营玩家起始ID
+        constant integer PLAYER_GROUP_MIST = 4 //雾隐阵营玩家起始ID
+        constant integer PLAYER_GROUP_SAND = 8 //砂忍阵营玩家起始ID
         //装备合成素材
         string icItmA = "desc"
     endglobals 
@@ -83,7 +86,7 @@ library LibA initializer init
             call KillUnit(u1)
             call RemoveUnit(u1)
             call ClearSelection() 
-            call SelectUnit(bulid[3], true) 
+            call SelectUnit(build[3], true) 
             call BJDebugMsg("出售单位为：" + GetUnitName(u0))
         endif
     endfunction
@@ -204,9 +207,10 @@ library LibA initializer init
 
     //失败动作1
     function Failure1 takes player ply returns nothing
+        local integer playerId = GetPlayerId(ply)
         local group ugp = CreateGroup() 
         local integer i = 0
-        if ply == Player(0) then //木叶失败
+        if playerId == PLAYER_GROUP_WOOD_LEAF then //木叶失败
             set i = 1
             call GroupEnumUnitsOfPlayer(ugp, Player(0), null)
             call ForGroupNew(ugp, i)
@@ -221,8 +225,7 @@ library LibA initializer init
             call CustomDefeatBJ(Player(2), "木叶忍者村被摧毁！你们失败了！")
             call CustomDefeatBJ(Player(3), "木叶忍者村被摧毁！你们失败了！")
             call DisplayTimedTextToForce(GetPlayersAll(), 30, "木叶忍者村被摧毁了！")
-        endif
-        if ply == Player(4) then //雾隐失败
+        elseif playerId == PLAYER_GROUP_MIST then //雾隐失败
             set i = 1
             call GroupEnumUnitsOfPlayer(ugp, Player(4), null)
             call ForGroupNew(ugp, i)
@@ -237,8 +240,7 @@ library LibA initializer init
             call CustomDefeatBJ(Player(6), "雾隐忍者村被摧毁！你们失败了！")
             call CustomDefeatBJ(Player(7), "雾隐忍者村被摧毁！你们失败了！")
             call DisplayTimedTextToForce(GetPlayersAll(), 30, "雾隐忍者村被摧毁！")
-        endif
-        if ply == Player(8) then //砂忍失败
+        elseif playerId == PLAYER_GROUP_SAND then //砂忍失败
             set i = 1
             call GroupEnumUnitsOfPlayer(ugp, Player(8), null)
             call ForGroupNew(ugp, i)
@@ -440,6 +442,22 @@ library LibA initializer init
         set ply = null //~
     endfunction 
 
+    //动态注册
+    function DynReg takes unit u0 returns nothing
+        local trigger array tgr 
+        if IsUnitType(u0, UNIT_TYPE_STRUCTURE) == true then
+            set tgr[1] = CreateTrigger()
+            set tgr[2] = CreateTrigger()
+            call TriggerRegisterUnitEvent(tgr[1], u0, EVENT_UNIT_DEATH)
+            call TriggerRegisterUnitEvent(tgr[2], u0, EVENT_UNIT_SELL)
+            call TriggerAddAction(tgr[1], function Death) 
+            call TriggerAddAction(tgr[2], function Sell) 
+        endif
+        //~
+        set tgr[1] = null
+        set tgr[2] = null
+    endfunction
+
     //地图初始化                      
     function init takes nothing returns nothing 
         local player array plys 
@@ -447,17 +465,15 @@ library LibA initializer init
         local integer i0 = - 1 
         local trigger array tgr 
         local timer tmr = CreateTimer() 
-        set bulid[0] = CreateUnit(Player(0), 'hcas', - 6400, - 6656, 90)
-        set bulid[1] = CreateUnit(Player(4), 'hcas', 3776, - 6784, 90)
-        set bulid[2] = CreateUnit(Player(8), 'hcas', - 1600, 1728, 90)
-        set bulid[3] = CreateUnit(Player(0), 'nC25', - 6400, - 6656, 90)
+        set build[0] = CreateUnit(Player(0), 'hcas', - 6400, - 6656, 90)
+        set build[1] = CreateUnit(Player(4), 'hcas', 3776, - 6784, 90)
+        set build[2] = CreateUnit(Player(8), 'hcas', - 1600, 1728, 90)
+        set build[3] = CreateUnit(Player(0), 'nC25', - 6400, - 6656, 90)
         set tgr[1] = CreateTrigger() 
         set tgr[2] = CreateTrigger() 
         set tgr[3] = CreateTrigger() 
         set tgr[4] = CreateTrigger() 
         set tgr[5] = CreateTrigger() 
-        set tgr[6] = CreateTrigger() 
-        set tgr[7] = CreateTrigger() 
         call SaveReal(HashSys, GetHandleId(tmr), 0, 0)
         call TimerStart(tmr, 0.5, true, function Spawn) 
         call SetTimeOfDay(12.00) 
@@ -484,8 +500,9 @@ library LibA initializer init
         loop
             exitwhen i0 == 3
             set i0 = i0 + 1
-            call TriggerRegisterUnitEvent(tgr[6], bulid[i0], EVENT_UNIT_DEATH)
-            call TriggerRegisterUnitEvent(tgr[7], bulid[i0], EVENT_UNIT_SELL)
+            call DynReg(build[i0])
+            // call TriggerRegisterUnitEvent(tgr[6], build[i0], EVENT_UNIT_DEATH)
+            // call TriggerRegisterUnitEvent(tgr[7], build[i0], EVENT_UNIT_SELL)
             // call BJDebugMsg(GetUnitName(store[i0]))
         endloop
         call TriggerAddAction(tgr[1], function SeltHeroA) 
@@ -493,8 +510,6 @@ library LibA initializer init
         call TriggerAddAction(tgr[3], function CmdLvup) 
         call TriggerAddAction(tgr[4], function CmdGold) 
         call TriggerAddAction(tgr[5], function Wtf) 
-        call TriggerAddAction(tgr[6], function Death) 
-        call TriggerAddAction(tgr[7], function Sell) 
         //~  
         set tmr = null 
         set tgr[1] = null 
@@ -502,6 +517,5 @@ library LibA initializer init
         set tgr[3] = null 
         set tgr[4] = null 
         set tgr[5] = null 
-        set tgr[6] = null 
     endfunction 
 endlibrary 
