@@ -55,28 +55,38 @@ library IIA initializer init
         local real ax1 = GetSpellTargetX() 
         local real ay2 = GetSpellTargetY() 
         if ab0 == 'A000' then //一键启动    
-          call Start(u0) 
+            call Start(u0) 
         endif
         if ab0 == 'A001' then //前进档 
             call D1(u0) 
-          endif
-      endfunction 
+        endif
+    endfunction 
 
+
+    //移动射击
+    function Strafe takes unit u0,integer icUnt returns nothing
+
+    endfunction
+    
     //初始化        
     function init takes nothing returns nothing 
-        local unit u0            
+        local unit u0        
+        local unit hero     
         local trigger trg = CreateTrigger()
         local timer tmr = CreateTimer()  
         call FogEnableOff() 
         call FogMaskEnableOff() 
         set u0 = CreateUnit(Player(0), 'hmtt', -636.7, -341.6, 90) 
         call SelectUnitForPlayerSingle(u0, Player(0)) 
-        call SetCameraTargetController(u0,0,0,false)
+        // call SetCameraTargetController(u0,0,0,false)
         set PlyHero = u0 
         call TriggerRegisterUnitEvent(trg, u0, EVENT_UNIT_SPELL_EFFECT)  
         call TriggerAddAction(trg, function Spell)  
         call SaveTimerHandle(Hash,GetHandleId(u0),0,tmr)  
-        call SaveUnitHandle(Hash,GetHandleId(tmr),0,u0)    
+        call SaveUnitHandle(Hash,GetHandleId(tmr),0,u0)  
+        set hero = CreateUnit(Player(0),'E000',-686.7,-391.6,00)
+        call Strafe(hero,'E001')
+        //----------------------------------------------------------------  
         // call SaveInteger(Hash,GetHandleId(tmr),0,i)    
         // call UnitAddAbility(u0, 'A000')    
         // call UnitAddAbility(u0, 'A001')    
