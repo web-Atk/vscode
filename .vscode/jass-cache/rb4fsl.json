@@ -1,0 +1,213 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+  "items": [
+    {
+      "label": "Attack",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Attack takes nothing returns nothing\n```\n\n\n---\n\n攻击处理\n\n**_>:** `AIjass.j`",
+      "sortText": "1_func_Attack",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Damage",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Damage takes nothing returns nothing\n```\n\n\n---\n\n伤害处理\n\n**_>:** `AIjass.j`",
+      "sortText": "1_func_Damage",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Resurgence",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Resurgence takes nothing returns nothing\n```\n\n\n---\n\n英雄复活函数\n\n**_>:** `AIjass.j`",
+      "sortText": "1_func_Resurgence",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Death",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Death takes nothing returns nothing\n```\n\n\n---\n\n死亡函数\n\n**_>:** `AIjass.j`",
+      "sortText": "1_func_Death",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "CreaterMonster",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction CreaterMonster takes player p, integer Uid, real ux, real uy returns unit\n```\n\n\n---\n\n创建怪物并赋值\n\n**_>:** `AIjass.j`",
+      "sortText": "1_func_CreaterMonster",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Sp",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Sp takes nothing returns nothing\n```\n\n\n---\n\n精力条系统\n\n**_>:** `AIjass.j`",
+      "sortText": "1_func_Sp",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "SoulB",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SoulB takes nothing returns nothing\n```\n\n\n---\n\n掉落灵魂B\n\n**_>:** `AIjass.j`",
+      "sortText": "1_func_SoulB",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "SoulA",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SoulA takes nothing returns nothing\n```\n\n\n---\n\n掉落灵魂A\n\n**_>:** `AIjass.j`",
+      "sortText": "1_func_SoulA",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "DelEff",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction DelEff takes nothing returns nothing\n```\n\n\n---\n\n定时删除特效\n\n**_>:** `AIjass.j`",
+      "sortText": "1_func_DelEff",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "ComHash",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable ComHash\n```\n\n\n**_>:** `AIjass.j`",
+      "sortText": "2_var_ComHash",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "DgeHash",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable DgeHash\n```\n\n\n**_>:** `AIjass.j`",
+      "sortText": "2_var_DgeHash",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "AbeHash",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable AbeHash\n```\n\n\n**_>:** `AIjass.j`",
+      "sortText": "2_var_AbeHash",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "DgeTgr",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntrigger DgeTgr\n```\n\n\n**_>:** `AIjass.j`",
+      "sortText": "2_var_DgeTgr",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "unit_0",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nunit unit_0\n```\n\n\n**_>:** `AIjass.j`",
+      "sortText": "2_var_unit_0",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "unit_1",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nunit unit_1\n```\n\n\n**_>:** `AIjass.j`",
+      "sortText": "2_var_unit_1",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "unit_2",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nunit unit_2\n```\n\n\n**_>:** `AIjass.j`",
+      "sortText": "2_var_unit_2",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "PickupSoul",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction PickupSoul takes nothing returns nothing\n```\n\n\n---\n\n拾取灵魂\n\n**_>:** `AIjass.j`",
+      "sortText": "1_func_PickupSoul",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Enter",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Enter takes nothing returns nothing\n```\n\n\n---\n\n进入区域事件\n\n**_>:** `AIjass.j`",
+      "sortText": "1_func_Enter",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Leave",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Leave takes nothing returns nothing\n```\n\n\n---\n\n离开区域事件\n\n**_>:** `AIjass.j`",
+      "sortText": "1_func_Leave",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Pickup",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Pickup takes nothing returns nothing\n```\n\n\n---\n\n获取物品函数\n\n**_>:** `AIjass.j`",
+      "sortText": "1_func_Pickup",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Drop",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Drop takes nothing returns nothing\n```\n\n\n---\n\n丢弃物品函数\n\n**_>:** `AIjass.j`",
+      "sortText": "1_func_Drop",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Command",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Command takes nothing returns nothing\n```\n\n\n---\n\n可用指令1\n\n**_>:** `AIjass.j`",
+      "sortText": "1_func_Command",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "init",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction init takes nothing returns nothing\n```\n\n\n---\n\n初始化函数\n\n**_>:** `AIjass.j`",
+      "sortText": "1_func_init",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\AIjass.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065521
+}

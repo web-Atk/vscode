@@ -1,6 +1,6 @@
 #ifndef BJDebugMsg
 #define BJDebugMsg BJDebugMsgInclude
-library JhLib  initializer ABC
+library JhLib 
     // function UnitDamagePointLocInclude takes unit whichUnit, real delay, real radius, real x, real y, real amount, boolean attack, boolean ranged, attacktype attackType, damagetype damageType, weapontype weaponType returns boolean  
         //     return true  
     // endfunction  
@@ -12,7 +12,6 @@ library JhLib  initializer ABC
             set i = i + 1
             exitwhen i == bj_MAX_PLAYERS
         endloop
-        // call DisplayTimedTextToPlayer(Player(0), 0, 0, 60, msg)
     endfunction 
     function ABC takes code callback returns nothing
         local trigger tgr = CreateTrigger()

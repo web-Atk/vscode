@@ -1,0 +1,69 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\manuscript.j",
+  "items": [
+    {
+      "label": "SkillHash",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable SkillHash\n```\n\n\n**_>:** `manuscript.j`",
+      "sortText": "2_var_SkillHash",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\manuscript.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "trg_______u",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntrigger trg_______u\n```\n\n\n**_>:** `manuscript.j`",
+      "sortText": "2_var_trg_______u",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\manuscript.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "g",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ngroup g\n```\n\n\n**_>:** `manuscript.j`",
+      "sortText": "2_var_g",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\manuscript.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "Death",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Death takes nothing returns nothing\n```\n\n\n**_>:** `manuscript.j`",
+      "sortText": "1_func_Death",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\manuscript.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "JiZhong",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction JiZhong takes nothing returns nothing\n```\n\n\n**_>:** `manuscript.j`",
+      "sortText": "1_func_JiZhong",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\manuscript.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "FaShe",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction FaShe takes nothing returns nothing\n```\n\n\n---\n\n发射投射物\n\n**_>:** `manuscript.j`",
+      "sortText": "1_func_FaShe",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\manuscript.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "frostarmor",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction frostarmor takes nothing returns nothing\n```\n\n\n---\n\n初始函数\n\n**_>:** `manuscript.j`",
+      "sortText": "1_func_frostarmor",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\manuscript.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065542
+}

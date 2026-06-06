@@ -1,0 +1,33 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass7.j",
+  "items": [
+    {
+      "label": "hash_test",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable hash_test\n```\n\n\n**_>:** `jass7.j`",
+      "sortText": "2_var_hash_test",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass7.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "tl_act",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction tl_act takes nothing returns nothing\n```\n\n\n**_>:** `jass7.j`",
+      "sortText": "1_func_tl_act",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass7.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "init_a",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction init_a takes nothing returns nothing\n```\n\n\n**_>:** `jass7.j`",
+      "sortText": "1_func_init_a",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass7.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065538
+}

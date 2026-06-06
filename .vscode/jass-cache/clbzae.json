@@ -1,0 +1,24 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\Rotting Touch.j",
+  "items": [
+    {
+      "label": "abl",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable abl\n```\n\n\n**_>:** `Rotting Touch.j`",
+      "sortText": "2_var_abl",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\Rotting Touch.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "Decay",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Decay takes nothing returns nothing\n```\n\n\n**_>:** `Rotting Touch.j`",
+      "sortText": "1_func_Decay",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\Rotting Touch.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065544
+}

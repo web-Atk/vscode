@@ -1,0 +1,33 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\控制代码优化.j",
+  "items": [
+    {
+      "label": "KzHs",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable KzHs\n```\n\n\n**_>:** `控制代码优化.j`",
+      "sortText": "2_var_KzHs",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\控制代码优化.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "CtrUt1",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction CtrUt1 takes nothing returns nothing\n```\n\n\n**_>:** `控制代码优化.j`",
+      "sortText": "1_func_CtrUt1",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\控制代码优化.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "CtrUt",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction CtrUt takes unit u, real t, integer b returns nothing\n```\n\n\n**_>:** `控制代码优化.j`",
+      "sortText": "1_func_CtrUt",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\控制代码优化.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065550
+}

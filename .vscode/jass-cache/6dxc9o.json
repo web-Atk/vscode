@@ -1,0 +1,15 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\ifndefTest.j",
+  "items": [
+    {
+      "label": "BJDebugMsgInclude",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction BJDebugMsgInclude takes string msg returns nothing\n```\n\n\n---\n\nlibrary JhLib\n\nfunction UnitDamagePointLocInclude takes unit whichUnit, real delay, real radius, real x, real y, real amount, boolean attack, boolean ranged, attacktype attackType, damagetype damageType, weapontype weaponType returns boolean\n\nreturn true\n\nendfunction\n\n**_>:** `ifndefTest.j`",
+      "sortText": "1_func_BJDebugMsgInclude",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\ifndefTest.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065525
+}

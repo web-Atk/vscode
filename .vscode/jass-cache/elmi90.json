@@ -1,0 +1,33 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass5.j",
+  "items": [
+    {
+      "label": "tm1",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntimer tm1\n```\n\n\n**_>:** `以天下为之笼/jass5.j`",
+      "sortText": "2_var_tm1",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass5.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "action",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction action takes nothing returns nothing\n```\n\n\n**_>:** `以天下为之笼/jass5.j`",
+      "sortText": "1_func_action",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass5.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "jass5",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction jass5 takes nothing returns nothing\n```\n\n\n**_>:** `以天下为之笼/jass5.j`",
+      "sortText": "1_func_jass5",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass5.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065548
+}

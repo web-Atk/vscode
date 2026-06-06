@@ -1,0 +1,15 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass6.j",
+  "items": [
+    {
+      "label": "jass6",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction jass6 takes nothing returns nothing\n```\n\n\n---\n\nup主 以天下为之笼 魔兽Jass教程（十四）排泄\n\nlocal handle h1 = CreateItem('rate6',0,0)\n\nlocal handle h2 = CreateIUnit(player(0),'hpea',0,0,0)\n\nlocal timer timer1 = CreateTimer()\n\nlocal hashtable table1 = InitHashtable()\n\nlocal trigger trigger1 = CreateTrigger()\n\nlocal location location1 = location(0,0)\n\nlocal effect effect1 = AddSpecialEffectLocBJ(location1,\"Abilities\\Spells\\Human\\Thunderclap\\ThunderClapCaster.mdl\")\n\n**_>:** `以天下为之笼/jass6.j`",
+      "sortText": "1_func_jass6",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass6.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065549
+}

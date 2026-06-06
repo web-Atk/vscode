@@ -1,0 +1,177 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+  "items": [
+    {
+      "label": "yd_DamageEventTrigger",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntrigger yd_DamageEventTrigger\n```\n\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "2_var_yd_DamageEventTrigger",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "DAMAGE_EVENT_SWAP_TIMEOUT",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nconstant integer DAMAGE_EVENT_SWAP_TIMEOUT\n```\n\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "2_var_DAMAGE_EVENT_SWAP_TIMEOUT",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "DAMAGE_EVENT_SWAP_ENABLE",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nconstant boolean DAMAGE_EVENT_SWAP_ENABLE\n```\n\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "2_var_DAMAGE_EVENT_SWAP_ENABLE",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "yd_DamageEventTriggerToDestory",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntrigger yd_DamageEventTriggerToDestory\n```\n\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "2_var_yd_DamageEventTriggerToDestory",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "DamageEventQueue",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntrigger array DamageEventQueue\n```\n\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "2_var_DamageEventQueue",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "DamageEventNumber",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ninteger DamageEventNumber\n```\n\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "2_var_DamageEventNumber",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "bj_lastMovedItemInItemSlot",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nitem bj_lastMovedItemInItemSlot\n```\n\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "2_var_bj_lastMovedItemInItemSlot",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "MoveItemEventTrigger",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntrigger MoveItemEventTrigger\n```\n\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "2_var_MoveItemEventTrigger",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "MoveItemEventQueue",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntrigger array MoveItemEventQueue\n```\n\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "2_var_MoveItemEventQueue",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "MoveItemEventNumber",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ninteger MoveItemEventNumber\n```\n\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "2_var_MoveItemEventNumber",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "YDWEAnyUnitDamagedTriggerAction",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction YDWEAnyUnitDamagedTriggerAction takes nothing returns nothing\n```\n\n\n---\n\n===========================================================================\n\n任意单位伤害事件\n\n===========================================================================\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "1_func_YDWEAnyUnitDamagedTriggerAction",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "YDWEAnyUnitDamagedFilter",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction YDWEAnyUnitDamagedFilter takes nothing returns boolean\n```\n\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "1_func_YDWEAnyUnitDamagedFilter",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "YDWEAnyUnitDamagedEnumUnit",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction YDWEAnyUnitDamagedEnumUnit takes nothing returns nothing\n```\n\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "1_func_YDWEAnyUnitDamagedEnumUnit",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "YDWEAnyUnitDamagedRegistTriggerUnitEnter",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction YDWEAnyUnitDamagedRegistTriggerUnitEnter takes nothing returns nothing\n```\n\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "1_func_YDWEAnyUnitDamagedRegistTriggerUnitEnter",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "YDWESyStemAnyUnitDamagedSwap",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction YDWESyStemAnyUnitDamagedSwap takes nothing returns nothing\n```\n\n\n---\n\n将 yd_DamageEventTrigger 移入销毁队列, 从而排泄触发器事件\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "1_func_YDWESyStemAnyUnitDamagedSwap",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "YDWESyStemAnyUnitDamagedRegistTrigger",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction YDWESyStemAnyUnitDamagedRegistTrigger takes trigger trg returns nothing\n```\n\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "1_func_YDWESyStemAnyUnitDamagedRegistTrigger",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "YDWESyStemItemUnmovableTriggerAction",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction YDWESyStemItemUnmovableTriggerAction takes nothing returns nothing\n```\n\n\n---\n\n===========================================================================\n\n移动物品事件\n\n===========================================================================\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "1_func_YDWESyStemItemUnmovableTriggerAction",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "YDWESyStemItemUnmovableRegistTrigger",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction YDWESyStemItemUnmovableRegistTrigger takes trigger trg returns nothing\n```\n\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "1_func_YDWESyStemItemUnmovableRegistTrigger",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "GetLastMovedItemInItemSlot",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction GetLastMovedItemInItemSlot takes nothing returns item\n```\n\n\n**_>:** `[伤害事件] YDWETriggerEvent.j`",
+      "sortText": "1_func_GetLastMovedItemInItemSlot",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\[伤害事件] YDWETriggerEvent.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065547
+}

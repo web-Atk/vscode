@@ -1,0 +1,51 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass24.j",
+  "items": [
+    {
+      "label": "aaa",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction aaa takes nothing returns nothing\n```\n\n\n**_>:** `jass24.j`",
+      "sortText": "1_func_aaa",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass24.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "bbb",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction bbb takes nothing returns boolean\n```\n\n\n**_>:** `jass24.j`",
+      "sortText": "1_func_bbb",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass24.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "ddd",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction ddd takes nothing returns boolean\n```\n\n\n**_>:** `jass24.j`",
+      "sortText": "1_func_ddd",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass24.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "ccc",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction ccc takes nothing returns nothing\n```\n\n\n**_>:** `jass24.j`",
+      "sortText": "1_func_ccc",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass24.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "test",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction test takes nothing returns nothing\n```\n\n\n**_>:** `jass24.j`",
+      "sortText": "1_func_test",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass24.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065536
+}

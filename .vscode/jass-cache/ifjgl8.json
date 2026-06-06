@@ -1,0 +1,24 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass1.j",
+  "items": [
+    {
+      "label": "BJDebugMsgInclude",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction BJDebugMsgInclude takes string msg returns nothing\n```\n\n\n---\n\nfunction UnitDamagePointLocInclude takes unit whichUnit, real delay, real radius, real x, real y, real amount, boolean attack, boolean ranged, attacktype attackType, damagetype damageType, weapontype weaponType returns boolean\n\nreturn true\n\nendfunction\n\n**_>:** `jass1.j`",
+      "sortText": "1_func_BJDebugMsgInclude",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass1.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "ABC",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction ABC takes code callback returns nothing\n```\n\n\n**_>:** `jass1.j`",
+      "sortText": "1_func_ABC",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass1.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065526
+}

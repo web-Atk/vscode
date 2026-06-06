@@ -1,0 +1,42 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\jianzhufapanduan.j",
+  "items": [
+    {
+      "label": "MUYE_GetUnitX",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction MUYE_GetUnitX takes real q, real w, real e returns real\n```\n\n\n---\n\n位移建筑判断法\n\nX坐标偏移\n\n**_>:** `jianzhufapanduan.j`",
+      "sortText": "1_func_MUYE_GetUnitX",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jianzhufapanduan.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "MUYE_GetUnitY",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction MUYE_GetUnitY takes real q, real w, real e returns real\n```\n\n\n---\n\nY坐标偏移\n\n**_>:** `jianzhufapanduan.j`",
+      "sortText": "1_func_MUYE_GetUnitY",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jianzhufapanduan.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "MUYE_unit_MoveXY_1",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction MUYE_unit_MoveXY_1 takes unit u, real q, real w returns nothing\n```\n\n\n---\n\n单位坐标位移\n\n**_>:** `jianzhufapanduan.j`",
+      "sortText": "1_func_MUYE_unit_MoveXY_1",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jianzhufapanduan.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "MUYE_unit_MoveXY_2",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction MUYE_unit_MoveXY_2 takes unit u, integer u2, real q, real w returns nothing\n```\n\n\n---\n\n布尔值建造法单位坐标位移\n\n**_>:** `jianzhufapanduan.j`",
+      "sortText": "1_func_MUYE_unit_MoveXY_2",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jianzhufapanduan.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065540
+}

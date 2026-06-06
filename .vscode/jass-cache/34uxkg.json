@@ -1,0 +1,24 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass14.j",
+  "items": [
+    {
+      "label": "aaa",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction aaa takes string s, integer i, unit u returns nothing\n```\n\n\n**_>:** `jass14.j`",
+      "sortText": "1_func_aaa",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass14.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "test",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction test takes nothing returns nothing\n```\n\n\n**_>:** `jass14.j`",
+      "sortText": "1_func_test",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass14.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065529
+}

@@ -1,0 +1,735 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+  "items": [
+    {
+      "label": "LIBRARY_MultiPageInventorySystem",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nconstant boolean LIBRARY_MultiPageInventorySystem\n```\n\n\n---\n\nglobals from MultiPageInventorySystem:\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_LIBRARY_MultiPageInventorySystem",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "MultiPageInventorySystem___unitPage",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ninteger array MultiPageInventorySystem___unitPage\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_MultiPageInventorySystem___unitPage",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "MultiPageInventorySystem___unitPagesMax",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ninteger array MultiPageInventorySystem___unitPagesMax\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_MultiPageInventorySystem___unitPagesMax",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "MultiPageInventorySystem___invUnit",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nunit array MultiPageInventorySystem___invUnit\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_MultiPageInventorySystem___invUnit",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "MultiPageInventorySystem___itemSaveLoc",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nlocation MultiPageInventorySystem___itemSaveLoc\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_MultiPageInventorySystem___itemSaveLoc",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "udg_UDexWasted",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ninteger udg_UDexWasted\n```\n\n\n---\n\nendglobals from MultiPageInventorySystem\n\nUser-defined\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_udg_UDexWasted",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "udg_UDex",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ninteger udg_UDex\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_udg_UDex",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "udg_UDexNext",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ninteger array udg_UDexNext\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_udg_UDexNext",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "udg_UDexPrev",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ninteger array udg_UDexPrev\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_udg_UDexPrev",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "udg_IsUnitPreplaced",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nboolean array udg_IsUnitPreplaced\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_udg_IsUnitPreplaced",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "udg_UnitIndexEvent",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nreal udg_UnitIndexEvent\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_udg_UnitIndexEvent",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "udg_UDexUnits",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nunit array udg_UDexUnits\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_udg_UDexUnits",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "udg_UDexRecycle",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ninteger udg_UDexRecycle\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_udg_UDexRecycle",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "udg_UDexGen",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ninteger udg_UDexGen\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_udg_UDexGen",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "udg_UnitIndexerEnabled",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nboolean udg_UnitIndexerEnabled\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_udg_UnitIndexerEnabled",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "udg_InvAbility",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ninteger array udg_InvAbility\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_udg_InvAbility",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "udg_InvAbilitiesTotal",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ninteger udg_InvAbilitiesTotal\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_udg_InvAbilitiesTotal",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "udg_InvHash",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable udg_InvHash\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_udg_InvHash",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "udg_InvHotkeyLeft",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nstring udg_InvHotkeyLeft\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_udg_InvHotkeyLeft",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "udg_InvHotkeyRight",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nstring udg_InvHotkeyRight\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_udg_InvHotkeyRight",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "gg_trg_Unit_Indexer",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntrigger gg_trg_Unit_Indexer\n```\n\n\n---\n\nGenerated\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_gg_trg_Unit_Indexer",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "gg_trg_Inventory_System_Setup",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntrigger gg_trg_Inventory_System_Setup\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_gg_trg_Inventory_System_Setup",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "gg_trg_Init",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntrigger gg_trg_Init\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_gg_trg_Init",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "gg_trg_Change_owner",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntrigger gg_trg_Change_owner\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_gg_trg_Change_owner",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "gg_trg_Inventory_descriptions",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntrigger gg_trg_Inventory_descriptions\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_gg_trg_Inventory_descriptions",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "gg_unit_Oshd_0311",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nunit gg_unit_Oshd_0311\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_gg_unit_Oshd_0311",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "gg_unit_Edem_0243",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nunit gg_unit_Edem_0243\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_gg_unit_Edem_0243",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "gg_unit_Emoo_0242",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nunit gg_unit_Emoo_0242\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_gg_unit_Emoo_0242",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "gg_unit_Hblm_0165",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nunit gg_unit_Hblm_0165\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_gg_unit_Hblm_0165",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "gg_unit_hpea_0000",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nunit gg_unit_hpea_0000\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_gg_unit_hpea_0000",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "gg_unit_hfoo_0106",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nunit gg_unit_hfoo_0106\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "2_var_gg_unit_hfoo_0106",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "InventoryButtonsSetPageText",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction InventoryButtonsSetPageText takes player whichPlayer, string s returns nothing\n```\n\n\n---\n\nlibrary MultiPageInventorySystem:\n\n----------------------------------------------\\\\\n\n\\\\\n\nMulti-page Inventory System                 \\\\\n\nVersion 1.0.10                              \\\\\n\nWritten by Rahko / Sabeximus#2923           \\\\\n\n\\\\\n\n----------------------------------------------\\\\\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_InventoryButtonsSetPageText",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "SaveInventory",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SaveInventory takes nothing returns nothing\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_SaveInventory",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "LoadInventory",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction LoadInventory takes nothing returns nothing\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_LoadInventory",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "InventoryButtonClickLeft",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction InventoryButtonClickLeft takes nothing returns nothing\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_InventoryButtonClickLeft",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "InventoryButtonClickRight",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction InventoryButtonClickRight takes nothing returns nothing\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_InventoryButtonClickRight",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "InventoryButtonsHide",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction InventoryButtonsHide takes player whichPlayer returns nothing\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_InventoryButtonsHide",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "InventoryButtonsShow",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction InventoryButtonsShow takes player whichPlayer returns nothing\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_InventoryButtonsShow",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "ShowButtonsConditions",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction ShowButtonsConditions takes nothing returns boolean\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_ShowButtonsConditions",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "ShowButtonsActions",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction ShowButtonsActions takes nothing returns nothing\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_ShowButtonsActions",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "HideButtonsActions",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction HideButtonsActions takes nothing returns nothing\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_HideButtonsActions",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "CreateInventoryButtons",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction CreateInventoryButtons takes nothing returns nothing\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_CreateInventoryButtons",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "InitGlobals",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction InitGlobals takes nothing returns nothing\n```\n\n\n---\n\nlibrary MultiPageInventorySystem ends\n\n===========================================================================\n\nMulti-Page Inventory System 1.0.10\n\nWarcraft III map script\n\nGenerated by the Warcraft III World Editor\n\nMap Author:  Rahko\n\n===========================================================================\n\n***************************************************************************\n\n*\n\n*  Global Variables\n\n*\n\n***************************************************************************\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_InitGlobals",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "CreateAllItems",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction CreateAllItems takes nothing returns nothing\n```\n\n\n---\n\n***************************************************************************\n\n*\n\n*  Custom Script Code\n\n*\n\n***************************************************************************\n\n***************************************************************************\n\n*  Inventory Buttons\n\n***************************************************************************\n\n*\n\n*  Items\n\n*\n\n***************************************************************************\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_CreateAllItems",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "CreateUnitsForPlayer0",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction CreateUnitsForPlayer0 takes nothing returns nothing\n```\n\n\n---\n\n***************************************************************************\n\n*\n\n*  Unit Creation\n\n*\n\n***************************************************************************\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_CreateUnitsForPlayer0",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "CreateUnitsForPlayer1",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction CreateUnitsForPlayer1 takes nothing returns nothing\n```\n\n\n---\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_CreateUnitsForPlayer1",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "CreatePlayerBuildings",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction CreatePlayerBuildings takes nothing returns nothing\n```\n\n\n---\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_CreatePlayerBuildings",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "CreatePlayerUnits",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction CreatePlayerUnits takes nothing returns nothing\n```\n\n\n---\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_CreatePlayerUnits",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "CreateAllUnits",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction CreateAllUnits takes nothing returns nothing\n```\n\n\n---\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_CreateAllUnits",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Unit_Indexer_Func009Func005Func005C",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Unit_Indexer_Func009Func005Func005C takes nothing returns boolean\n```\n\n\n---\n\n***************************************************************************\n\n*\n\n*  Triggers\n\n*\n\n***************************************************************************\n\n===========================================================================\n\nTrigger: Unit Indexer\n\nThis trigger works in two key phases:\n\n1) During map initialization, enumerate all existing units of all players to give them an index.\n\n2) Adds a second event to itself to index new units as they enter the map.\n\nAs a unit enters the map, check for any old units that may have been removed at some point in order to free their index.\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Unit_Indexer_Func009Func005Func005C",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Unit_Indexer_Func009Func005C",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Unit_Indexer_Func009Func005C takes nothing returns boolean\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Unit_Indexer_Func009Func005C",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Unit_Indexer_Func009C",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Unit_Indexer_Func009C takes nothing returns boolean\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Unit_Indexer_Func009C",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Unit_Indexer_Func019Func004C",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Unit_Indexer_Func019Func004C takes nothing returns boolean\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Unit_Indexer_Func019Func004C",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Unit_Indexer_Func019C",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Unit_Indexer_Func019C takes nothing returns boolean\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Unit_Indexer_Func019C",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Unit_Indexer_Actions",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Unit_Indexer_Actions takes nothing returns nothing\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Unit_Indexer_Actions",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "IndexUnit",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction IndexUnit takes nothing returns boolean\n```\n\n\n---\n\nThis is the core function - it provides an index all existing units and for units as they enter the map\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_IndexUnit",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "InitializeUnitIndexer",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction InitializeUnitIndexer takes nothing returns nothing\n```\n\n\n---\n\nThe next function initializes the core of the system\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_InitializeUnitIndexer",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "InitTrig_Unit_Indexer",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction InitTrig_Unit_Indexer takes nothing returns nothing\n```\n\n\n---\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_InitTrig_Unit_Indexer",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Inventory_System_Setup_Actions",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Inventory_System_Setup_Actions takes nothing returns nothing\n```\n\n\n---\n\n===========================================================================\n\nTrigger: Inventory System Setup\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Inventory_System_Setup_Actions",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "InitTrig_Inventory_System_Setup",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction InitTrig_Inventory_System_Setup takes nothing returns nothing\n```\n\n\n---\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_InitTrig_Inventory_System_Setup",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Init_Actions",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Init_Actions takes nothing returns nothing\n```\n\n\n---\n\n===========================================================================\n\nTrigger: Init\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Init_Actions",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "InitTrig_Init",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction InitTrig_Init takes nothing returns nothing\n```\n\n\n---\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_InitTrig_Init",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Change_owner_Func001Func001C",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Change_owner_Func001Func001C takes nothing returns boolean\n```\n\n\n---\n\n===========================================================================\n\nTrigger: Change owner\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Change_owner_Func001Func001C",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Change_owner_Func001A",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Change_owner_Func001A takes nothing returns nothing\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Change_owner_Func001A",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Change_owner_Actions",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Change_owner_Actions takes nothing returns nothing\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Change_owner_Actions",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "InitTrig_Change_owner",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction InitTrig_Change_owner takes nothing returns nothing\n```\n\n\n---\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_InitTrig_Change_owner",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Inventory_descriptions_Func002C",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Inventory_descriptions_Func002C takes nothing returns boolean\n```\n\n\n---\n\n===========================================================================\n\nTrigger: Inventory descriptions\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Inventory_descriptions_Func002C",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Inventory_descriptions_Func003C",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Inventory_descriptions_Func003C takes nothing returns boolean\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Inventory_descriptions_Func003C",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Inventory_descriptions_Func004C",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Inventory_descriptions_Func004C takes nothing returns boolean\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Inventory_descriptions_Func004C",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Inventory_descriptions_Func005C",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Inventory_descriptions_Func005C takes nothing returns boolean\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Inventory_descriptions_Func005C",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Inventory_descriptions_Func006C",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Inventory_descriptions_Func006C takes nothing returns boolean\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Inventory_descriptions_Func006C",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Inventory_descriptions_Func007C",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Inventory_descriptions_Func007C takes nothing returns boolean\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Inventory_descriptions_Func007C",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Inventory_descriptions_Func008C",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Inventory_descriptions_Func008C takes nothing returns boolean\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Inventory_descriptions_Func008C",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Inventory_descriptions_Actions",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Inventory_descriptions_Actions takes nothing returns nothing\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_Trig_Inventory_descriptions_Actions",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "InitTrig_Inventory_descriptions",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction InitTrig_Inventory_descriptions takes nothing returns nothing\n```\n\n\n---\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_InitTrig_Inventory_descriptions",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "InitCustomTriggers",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction InitCustomTriggers takes nothing returns nothing\n```\n\n\n---\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_InitCustomTriggers",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "RunInitializationTriggers",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction RunInitializationTriggers takes nothing returns nothing\n```\n\n\n---\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_RunInitializationTriggers",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "InitCustomPlayerSlots",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction InitCustomPlayerSlots takes nothing returns nothing\n```\n\n\n---\n\n***************************************************************************\n\n*\n\n*  Players\n\n*\n\n***************************************************************************\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_InitCustomPlayerSlots",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "InitCustomTeams",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction InitCustomTeams takes nothing returns nothing\n```\n\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_InitCustomTeams",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "main",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction main takes nothing returns nothing\n```\n\n\n---\n\n***************************************************************************\n\n*\n\n*  Main Initialization\n\n*\n\n***************************************************************************\n\n===========================================================================\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_main",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "config",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction config takes nothing returns nothing\n```\n\n\n---\n\n***************************************************************************\n\n*\n\n*  Map Configuration\n\n*\n\n***************************************************************************\n\n**_>:** `war3map.j`",
+      "sortText": "1_func_config",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\war3map.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065546
+}

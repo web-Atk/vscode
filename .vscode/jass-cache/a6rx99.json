@@ -1,0 +1,15 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass17(3).j",
+  "items": [
+    {
+      "label": "aaa",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction aaa takes nothing returns nothing\n```\n\n\n**_>:** `jass17(3).j`",
+      "sortText": "1_func_aaa",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass17(3).j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065532
+}

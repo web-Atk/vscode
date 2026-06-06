@@ -1,0 +1,33 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass9.j",
+  "items": [
+    {
+      "label": "ShuaBingCondition",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction ShuaBingCondition takes nothing returns boolean\n```\n\n\n**_>:** `以天下为之笼/jass9.j`",
+      "sortText": "1_func_ShuaBingCondition",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass9.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "ShuaBingAction",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction ShuaBingAction takes nothing returns nothing\n```\n\n\n**_>:** `以天下为之笼/jass9.j`",
+      "sortText": "1_func_ShuaBingAction",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass9.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "init",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction init takes nothing returns nothing\n```\n\n\n**_>:** `以天下为之笼/jass9.j`",
+      "sortText": "1_func_init",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass9.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065550
+}

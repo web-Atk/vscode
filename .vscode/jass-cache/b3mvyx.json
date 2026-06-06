@@ -1,0 +1,294 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+  "items": [
+    {
+      "label": "HashSys",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable HashSys\n```\n\n\n**_>:** `NARUTO.j`",
+      "sortText": "2_var_HashSys",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "hero",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nunit array hero\n```\n\n\n**_>:** `NARUTO.j`",
+      "sortText": "2_var_hero",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "build",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nunit array build\n```\n\n\n**_>:** `NARUTO.j`",
+      "sortText": "2_var_build",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "Olplys",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nforce Olplys\n```\n\n\n**_>:** `NARUTO.j`",
+      "sortText": "2_var_Olplys",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "vmd",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nfogmodifier array vmd\n```\n\n\n**_>:** `NARUTO.j`",
+      "sortText": "2_var_vmd",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "jdc",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nfogmodifier array jdc\n```\n\n\n**_>:** `NARUTO.j`",
+      "sortText": "2_var_jdc",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "store",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nunit array store\n```\n\n\n**_>:** `NARUTO.j`",
+      "sortText": "2_var_store",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "wtf",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nboolean wtf\n```\n\n\n**_>:** `NARUTO.j`",
+      "sortText": "2_var_wtf",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "PLAYER_GROUP_WOOD_LEAF",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nconstant integer PLAYER_GROUP_WOOD_LEAF\n```\n\n\n**_>:** `NARUTO.j`",
+      "sortText": "2_var_PLAYER_GROUP_WOOD_LEAF",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "PLAYER_GROUP_MIST",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nconstant integer PLAYER_GROUP_MIST\n```\n\n\n**_>:** `NARUTO.j`",
+      "sortText": "2_var_PLAYER_GROUP_MIST",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "PLAYER_GROUP_SAND",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nconstant integer PLAYER_GROUP_SAND\n```\n\n\n**_>:** `NARUTO.j`",
+      "sortText": "2_var_PLAYER_GROUP_SAND",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "icItmA",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nstring icItmA\n```\n\n\n---\n\n装备合成素材\n\n**_>:** `NARUTO.j`",
+      "sortText": "2_var_icItmA",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "CmdLvup",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction CmdLvup takes nothing returns nothing\n```\n\n\n---\n\n指令-英雄升级\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_CmdLvup",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "CmdGold",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction CmdGold takes nothing returns nothing\n```\n\n\n---\n\n指令-获取金币\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_CmdGold",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Wtf",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Wtf takes nothing returns nothing\n```\n\n\n---\n\n指令-无限火力\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_Wtf",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "WtfCd",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction WtfCd takes nothing returns nothing\n```\n\n\n---\n\n清除CD\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_WtfCd",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Sell",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Sell takes nothing returns nothing\n```\n\n\n---\n\n出售\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_Sell",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Moves",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Moves takes nothing returns nothing\n```\n\n\n---\n\n招式名\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_Moves",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Spell",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Spell takes nothing returns nothing\n```\n\n\n---\n\n施法事件\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_Spell",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "SpawnPoint",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SpawnPoint takes player ply returns location\n```\n\n\n---\n\n出生点\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_SpawnPoint",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "ForGroupNew",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction ForGroupNew takes group ugp0, integer i returns nothing\n```\n\n\n---\n\n//选取单位做动作\n\nfunction SelectUntJM takes unit u0, code callback returns nothing\n\nendfunction\n\n选取单位做动作(结构体)\n\nstruct SeleUnt\n\nunit targetUnit\n\ncode callback\n\nmethod CallFun takes nothing returns nothing\n\ncall callback(targetUnit)\n\nendmethod\n\nendstruct\n\n选取单位组做动作\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_ForGroupNew",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Victory1",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Victory1 takes nothing returns nothing\n```\n\n\n---\n\n胜利动作1\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_Victory1",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Failure1",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Failure1 takes player ply returns nothing\n```\n\n\n---\n\n失败动作1\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_Failure1",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Revive",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Revive takes nothing returns nothing\n```\n\n\n---\n\n复活\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_Revive",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Death",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Death takes nothing returns nothing\n```\n\n\n---\n\n死亡相关\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_Death",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "SeltHeroB",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SeltHeroB takes nothing returns nothing\n```\n\n\n---\n\n选择英雄B\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_SeltHeroB",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "SeltHeroA",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SeltHeroA takes nothing returns nothing\n```\n\n\n---\n\n选择英雄A\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_SeltHeroA",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Spawn",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Spawn takes nothing returns nothing\n```\n\n\n---\n\nfunction Spawn1 takes nothing returns nothing\n\nendfunction\n\n刷兵\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_Spawn",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Control",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Control takes nothing returns nothing\n```\n\n\n---\n\n离线英雄分配\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_Control",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Leaves",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Leaves takes nothing returns nothing\n```\n\n\n---\n\n玩家离开\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_Leaves",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "DynReg",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction DynReg takes unit u0 returns nothing\n```\n\n\n---\n\n动态注册\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_DynReg",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "init",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction init takes nothing returns nothing\n```\n\n\n---\n\n地图初始化\n\n**_>:** `NARUTO.j`",
+      "sortText": "1_func_init",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\NARUTO.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065543
+}

@@ -1,0 +1,42 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\empirical value.j",
+  "items": [
+    {
+      "label": "gg_trg_Exp",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntrigger gg_trg_Exp\n```\n\n\n**_>:** `empirical value.j`",
+      "sortText": "2_var_gg_trg_Exp",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\empirical value.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "SetTextTagShowToPlay",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SetTextTagShowToPlay takes texttag tag, real r1, player p1 returns nothing\n```\n\n\n**_>:** `empirical value.j`",
+      "sortText": "1_func_SetTextTagShowToPlay",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\empirical value.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Trig_Exp_Conditions",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Trig_Exp_Conditions takes nothing returns boolean\n```\n\n\n**_>:** `empirical value.j`",
+      "sortText": "1_func_Trig_Exp_Conditions",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\empirical value.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "InitTrig_Exp",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction InitTrig_Exp takes nothing returns nothing\n```\n\n\n---\n\n===========================================================================\n\n**_>:** `empirical value.j`",
+      "sortText": "1_func_InitTrig_Exp",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\empirical value.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065523
+}

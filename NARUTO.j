@@ -1,3 +1,4 @@
+//忍村大战
 library LibA initializer init 
     globals 
         hashtable HashSys = InitHashtable() 

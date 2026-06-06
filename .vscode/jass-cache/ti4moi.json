@@ -1,0 +1,96 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\huangji.j",
+  "items": [
+    {
+      "label": "HashSkill",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable HashSkill\n```\n\n\n**_>:** `huangji.j`",
+      "sortText": "2_var_HashSkill",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\huangji.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "ugp0",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ngroup ugp0\n```\n\n\n**_>:** `huangji.j`",
+      "sortText": "2_var_ugp0",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\huangji.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "displacement",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction displacement takes nothing returns nothing\n```\n\n\n---\n\n======================================================================\n\n流沙移行\n\n**_>:** `huangji.j`",
+      "sortText": "1_func_displacement",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\huangji.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "transposal",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction transposal takes unit u0, real ax1, real ay2 returns nothing\n```\n\n\n---\n\nE流沙移形\n\n**_>:** `huangji.j`",
+      "sortText": "1_func_transposal",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\huangji.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Attack",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Attack takes nothing returns nothing\n```\n\n\n---\n\n攻击触发\n\n**_>:** `huangji.j`",
+      "sortText": "1_func_Attack",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\huangji.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "soldierB",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction soldierB takes nothing returns nothing\n```\n\n\n---\n\n沙兵连接\n\n**_>:** `huangji.j`",
+      "sortText": "1_func_soldierB",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\huangji.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "soldierA",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction soldierA takes unit u0, real ax1, real ay2, real ang returns nothing\n```\n\n\n---\n\nW沙兵现身\n\n**_>:** `huangji.j`",
+      "sortText": "1_func_soldierA",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\huangji.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "onslaught",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction onslaught takes unit u0, real ax1, real ay2 returns nothing\n```\n\n\n---\n\n狂沙冲刺\n\nQ狂沙猛攻\n\n**_>:** `huangji.j`",
+      "sortText": "1_func_onslaught",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\huangji.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Spell",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Spell takes nothing returns nothing\n```\n\n\n---\n\n======================================================================\n\n技能登记\n\n**_>:** `huangji.j`",
+      "sortText": "1_func_Spell",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\huangji.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "init",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction init takes nothing returns nothing\n```\n\n\n---\n\n初始化\n\n**_>:** `huangji.j`",
+      "sortText": "1_func_init",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\huangji.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065524
+}

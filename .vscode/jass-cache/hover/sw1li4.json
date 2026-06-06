@@ -1,0 +1,16 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+  "items": [
+    {
+      "symbolName": "angle",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "content": "\n```jass\nreal angle\n```\n\n\n**所属:** `ChargeData`\n**文件:** `jump.j`"
+    },
+    {
+      "symbolName": "speed",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "content": "\n```jass\nreal speed\n```\n\n\n---\n\nreal rate //速率\n\n**所属:** `ChargeData`\n**文件:** `jump.j`"
+    }
+  ],
+  "timestamp": 1778166037531
+}

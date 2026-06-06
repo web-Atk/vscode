@@ -1,0 +1,33 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass15.j",
+  "items": [
+    {
+      "label": "i",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ninteger i\n```\n\n\n**_>:** `jass15.j`",
+      "sortText": "2_var_i",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass15.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "aaa",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction aaa takes unit u returns nothing\n```\n\n\n**_>:** `jass15.j`",
+      "sortText": "1_func_aaa",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass15.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "test",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction test takes nothing returns nothing\n```\n\n\n**_>:** `jass15.j`",
+      "sortText": "1_func_test",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass15.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065530
+}

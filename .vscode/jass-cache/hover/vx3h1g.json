@@ -1,0 +1,11 @@
+{
+  "filePath": "c:\\Users\\user\\.vscode\\extensions\\jass.jass-1.9.7\\static\\blizzard.j",
+  "items": [
+    {
+      "symbolName": "SinBJ",
+      "filePath": "c:\\Users\\user\\.vscode\\extensions\\jass.jass-1.9.7\\static\\blizzard.j",
+      "content": "\n```jass\nfunction SinBJ takes real degrees returns real\n```\n\n\n---\n\n取正弦\n\n**文件:** `c:\\Users\\user\\.vscode\\extensions\\jass.jass-1.9.7\\static\\blizzard.j`"
+    }
+  ],
+  "timestamp": 1778165923573
+}

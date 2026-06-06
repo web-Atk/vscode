@@ -1,0 +1,11 @@
+{
+  "filePath": "c:\\Users\\user\\.vscode\\extensions\\jass.jass-1.9.6\\static\\common.j",
+  "items": [
+    {
+      "symbolName": "GetUnitFacing",
+      "filePath": "c:\\Users\\user\\.vscode\\extensions\\jass.jass-1.9.6\\static\\common.j",
+      "content": "\n```jass\nconstant native GetUnitFacing takes unit whichUnit returns real\n```\n\n\n---\n\n获取指定单位朝向\n\n**文件:** `c:\\Users\\user\\.vscode\\extensions\\jass.jass-1.9.6\\static\\common.j`"
+    }
+  ],
+  "timestamp": 1778166065608
+}

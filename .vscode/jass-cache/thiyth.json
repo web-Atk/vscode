@@ -1,0 +1,96 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\channel.j",
+  "items": [
+    {
+      "label": "HashSys",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable HashSys\n```\n\n\n**_>:** `channel.j`",
+      "sortText": "2_var_HashSys",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\channel.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "tmr",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntimer tmr\n```\n\n\n**_>:** `channel.j`",
+      "sortText": "2_var_tmr",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\channel.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "Clock",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Clock takes nothing returns string\n```\n\n\n**_>:** `channel.j`",
+      "sortText": "1_func_Clock",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\channel.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "SpellE",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SpellE takes nothing returns nothing\n```\n\n\n**_>:** `channel.j`",
+      "sortText": "1_func_SpellE",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\channel.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "SpellD",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SpellD takes nothing returns nothing\n```\n\n\n**_>:** `channel.j`",
+      "sortText": "1_func_SpellD",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\channel.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "SpellC",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SpellC takes nothing returns nothing\n```\n\n\n**_>:** `channel.j`",
+      "sortText": "1_func_SpellC",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\channel.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "SpellB",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SpellB takes nothing returns nothing\n```\n\n\n**_>:** `channel.j`",
+      "sortText": "1_func_SpellB",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\channel.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "SpellA",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SpellA takes nothing returns nothing\n```\n\n\n**_>:** `channel.j`",
+      "sortText": "1_func_SpellA",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\channel.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Playtime",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Playtime takes nothing returns nothing\n```\n\n\n**_>:** `channel.j`",
+      "sortText": "1_func_Playtime",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\channel.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "init",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction init takes nothing returns nothing\n```\n\n\n**_>:** `channel.j`",
+      "sortText": "1_func_init",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\channel.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065522
+}

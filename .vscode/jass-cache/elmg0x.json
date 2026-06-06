@@ -1,0 +1,51 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass8.j",
+  "items": [
+    {
+      "label": "a",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ninteger a\n```\n\n\n**_>:** `以天下为之笼/jass8.j`",
+      "sortText": "2_var_a",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass8.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "b",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ninteger b\n```\n\n\n**_>:** `以天下为之笼/jass8.j`",
+      "sortText": "2_var_b",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass8.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "PI",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nconstant real PI\n```\n\n\n**_>:** `以天下为之笼/jass8.j`",
+      "sortText": "2_var_PI",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass8.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "Hero",
+      "kind": 21,
+      "detail": "Struct",
+      "documentation": "\n```jass\nstruct Hero\n```\n\n\n**_>:** `以天下为之笼/jass8.j`",
+      "sortText": "1_struct_Hero",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass8.j",
+      "statementType": "StructDeclaration"
+    },
+    {
+      "label": "init",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction init takes nothing returns nothing\n```\n\n\n**_>:** `以天下为之笼/jass8.j`",
+      "sortText": "1_func_init",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass8.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065549
+}

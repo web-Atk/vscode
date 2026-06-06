@@ -1,0 +1,96 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\test.j",
+  "items": [
+    {
+      "label": "trg_Chet",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntrigger trg_Chet\n```\n\n\n**_>:** `test.j`",
+      "sortText": "2_var_trg_Chet",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\test.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "trg_AbilityEffect",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntrigger trg_AbilityEffect\n```\n\n\n**_>:** `test.j`",
+      "sortText": "2_var_trg_AbilityEffect",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\test.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "trg_UseItem",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntrigger trg_UseItem\n```\n\n\n**_>:** `test.j`",
+      "sortText": "2_var_trg_UseItem",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\test.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "hero",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nunit array hero\n```\n\n\n**_>:** `test.j`",
+      "sortText": "2_var_hero",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\test.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "Action_HG",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Action_HG takes nothing returns nothing\n```\n\n\n**_>:** `test.j`",
+      "sortText": "1_func_Action_HG",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\test.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Action_Ability",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Action_Ability takes nothing returns nothing\n```\n\n\n**_>:** `test.j`",
+      "sortText": "1_func_Action_Ability",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\test.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Action_UseItem",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Action_UseItem takes nothing returns nothing\n```\n\n\n**_>:** `test.j`",
+      "sortText": "1_func_Action_UseItem",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\test.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "I2U",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction I2U takes integer i returns unit\n```\n\n\n**_>:** `test.j`",
+      "sortText": "1_func_I2U",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\test.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "abc",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction abc takes nothing returns nothing\n```\n\n\n**_>:** `test.j`",
+      "sortText": "1_func_abc",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\test.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "ht",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable ht\n```\n\n\n**_>:** `test.j`",
+      "sortText": "2_var_ht",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\test.j",
+      "statementType": "VariableDeclaration"
+    }
+  ],
+  "timestamp": 1778166065544
+}

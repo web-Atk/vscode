@@ -1,0 +1,60 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\zhanmu.j",
+  "items": [
+    {
+      "label": "HashSys",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable HashSys\n```\n\n\n**_>:** `zhanmu.j`",
+      "sortText": "2_var_HashSys",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\zhanmu.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "Timer_0",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntimer Timer_0\n```\n\n\n**_>:** `zhanmu.j`",
+      "sortText": "2_var_Timer_0",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\zhanmu.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "DetectionAOE2",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction DetectionAOE2 takes nothing returns nothing\n```\n\n\n**_>:** `zhanmu.j`",
+      "sortText": "1_func_DetectionAOE2",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\zhanmu.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "DetectionAOE1",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction DetectionAOE1 takes unit u0, location pt, integer untid returns nothing\n```\n\n\n**_>:** `zhanmu.j`",
+      "sortText": "1_func_DetectionAOE1",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\zhanmu.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Spell",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Spell takes nothing returns nothing\n```\n\n\n**_>:** `zhanmu.j`",
+      "sortText": "1_func_Spell",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\zhanmu.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "init",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction init takes nothing returns nothing\n```\n\n\n**_>:** `zhanmu.j`",
+      "sortText": "1_func_init",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\zhanmu.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065546
+}

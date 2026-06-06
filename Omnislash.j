@@ -1,3 +1,4 @@
+//无敌斩
 library O initializer init 
 
     globals 

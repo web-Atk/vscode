@@ -1,3 +1,4 @@
+//黄鸡技能
 library A initializer init 
 
     globals 

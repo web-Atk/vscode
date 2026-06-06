@@ -1,0 +1,15 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass17(1).j",
+  "items": [
+    {
+      "label": "bbb",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction bbb takes nothing returns nothing\n```\n\n\n---\n\nprivate function aaa takes nothing returns nothing  //可以通过加修饰符private来避免同名函数被引用\n\ncall BJDebugMsg(\"aaa执行了\")\n\nendfunction\n\n**_>:** `jass17(1).j`",
+      "sortText": "1_func_bbb",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass17(1).j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065531
+}

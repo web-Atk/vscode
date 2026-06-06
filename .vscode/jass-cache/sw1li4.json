@@ -1,0 +1,141 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+  "items": [
+    {
+      "label": "HashSkill",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable HashSkill\n```\n\n\n**_>:** `jump.j`",
+      "sortText": "2_var_HashSkill",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "gTimerHash",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable gTimerHash\n```\n\n\n**_>:** `jump.j`",
+      "sortText": "2_var_gTimerHash",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "JumpD",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction JumpD takes nothing returns nothing\n```\n\n\n**_>:** `jump.j`",
+      "sortText": "1_func_JumpD",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "JumpC",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction JumpC takes unit u0, real ax1, real ay2 returns nothing\n```\n\n\n**_>:** `jump.j`",
+      "sortText": "1_func_JumpC",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "JumpB",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction JumpB takes nothing returns nothing\n```\n\n\n**_>:** `jump.j`",
+      "sortText": "1_func_JumpB",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "JumpA",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction JumpA takes unit u0, real ax1, real ay2 returns nothing\n```\n\n\n**_>:** `jump.j`",
+      "sortText": "1_func_JumpA",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "WaveB",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction WaveB takes nothing returns nothing\n```\n\n\n**_>:** `jump.j`",
+      "sortText": "1_func_WaveB",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "WaveA",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction WaveA takes unit u0, real ax1, real ay2, integer aLv returns nothing\n```\n\n\n**_>:** `jump.j`",
+      "sortText": "1_func_WaveA",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "SetTimerData",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SetTimerData takes timer t, integer data returns nothing\n```\n\n\n---\n\n==========================================================================================\n\n**_>:** `jump.j`",
+      "sortText": "1_func_SetTimerData",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "GetTimerData",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction GetTimerData takes timer t returns integer\n```\n\n\n**_>:** `jump.j`",
+      "sortText": "1_func_GetTimerData",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "ChargeData",
+      "kind": 21,
+      "detail": "Struct",
+      "documentation": "\n```jass\nstruct ChargeData\n```\n\n\n**_>:** `jump.j`",
+      "sortText": "1_struct_ChargeData",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "statementType": "StructDeclaration"
+    },
+    {
+      "label": "Charge",
+      "kind": 21,
+      "detail": "Struct",
+      "documentation": "\n```jass\nstruct Charge extends ChargeData\n```\n\n\n**_>:** `jump.j`",
+      "sortText": "1_struct_Charge",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "statementType": "StructDeclaration"
+    },
+    {
+      "label": "JMcharge",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction JMcharge takes unit u0, integer rate, real angle, real range, real damage, boolean trees, boolean touch, boolean flight, string eff, string point returns nothing\n```\n\n\n**_>:** `jump.j`",
+      "sortText": "1_func_JMcharge",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Spell",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Spell takes nothing returns nothing\n```\n\n\n---\n\n==========================================================================================\n\n**_>:** `jump.j`",
+      "sortText": "1_func_Spell",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "init",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction init takes nothing returns nothing\n```\n\n\n**_>:** `jump.j`",
+      "sortText": "1_func_init",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jump.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065541
+}

@@ -1,0 +1,51 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\TreeSentinel.j",
+  "items": [
+    {
+      "label": "ComHash",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable ComHash\n```\n\n\n**_>:** `TreeSentinel.j`",
+      "sortText": "2_var_ComHash",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\TreeSentinel.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "A",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction A takes nothing returns nothing\n```\n\n\n**_>:** `TreeSentinel.j`",
+      "sortText": "1_func_A",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\TreeSentinel.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "B",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction B takes nothing returns nothing\n```\n\n\n**_>:** `TreeSentinel.j`",
+      "sortText": "1_func_B",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\TreeSentinel.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "State",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction State takes nothing returns nothing\n```\n\n\n**_>:** `TreeSentinel.j`",
+      "sortText": "1_func_State",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\TreeSentinel.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "init",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction init takes nothing returns nothing\n```\n\n\n**_>:** `TreeSentinel.j`",
+      "sortText": "1_func_init",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\TreeSentinel.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065545
+}

@@ -1,0 +1,69 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\JHmain.j",
+  "items": [
+    {
+      "label": "HashBre",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable HashBre\n```\n\n\n**_>:** `JHmain.j`",
+      "sortText": "2_var_HashBre",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\JHmain.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "HashSys",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable HashSys\n```\n\n\n**_>:** `JHmain.j`",
+      "sortText": "2_var_HashSys",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\JHmain.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "XPtraceB",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction XPtraceB takes nothing returns nothing\n```\n\n\n**_>:** `JHmain.j`",
+      "sortText": "1_func_XPtraceB",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\JHmain.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "XPtraceA",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction XPtraceA takes unit u0, integer icUnt, real f0, group ugp0 returns nothing\n```\n\n\n**_>:** `JHmain.j`",
+      "sortText": "1_func_XPtraceA",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\JHmain.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "SpellB",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SpellB takes nothing returns nothing\n```\n\n\n**_>:** `JHmain.j`",
+      "sortText": "1_func_SpellB",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\JHmain.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "SpellA",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SpellA takes nothing returns nothing\n```\n\n\n**_>:** `JHmain.j`",
+      "sortText": "1_func_SpellA",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\JHmain.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "test",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction test takes unit u0 returns nothing\n```\n\n\n**_>:** `JHmain.j`",
+      "sortText": "1_func_test",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\JHmain.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065539
+}

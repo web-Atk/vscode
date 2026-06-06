@@ -1,0 +1,24 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass3.j",
+  "items": [
+    {
+      "label": "A",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable A\n```\n\n\n**_>:** `以天下为之笼/jass3.j`",
+      "sortText": "2_var_A",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass3.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "jass3",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction jass3 takes nothing returns nothing\n```\n\n\n**_>:** `以天下为之笼/jass3.j`",
+      "sortText": "1_func_jass3",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\以天下为之笼\\jass3.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065548
+}

@@ -1,0 +1,15 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass17(2).j",
+  "items": [
+    {
+      "label": "ccc",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction ccc takes nothing returns nothing\n```\n\n\n**_>:** `jass17(2).j`",
+      "sortText": "1_func_ccc",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\jass17(2).j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065531
+}

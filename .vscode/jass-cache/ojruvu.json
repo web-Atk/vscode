@@ -1,0 +1,42 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\Omnislash.j",
+  "items": [
+    {
+      "label": "AbiHash",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nhashtable AbiHash\n```\n\n\n**_>:** `Omnislash.j`",
+      "sortText": "2_var_AbiHash",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\Omnislash.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "SpellB",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SpellB takes nothing returns nothing\n```\n\n\n**_>:** `Omnislash.j`",
+      "sortText": "1_func_SpellB",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\Omnislash.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "SpellA",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction SpellA takes nothing returns nothing\n```\n\n\n**_>:** `Omnislash.j`",
+      "sortText": "1_func_SpellA",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\Omnislash.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "init",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction init takes nothing returns nothing\n```\n\n\n**_>:** `Omnislash.j`",
+      "sortText": "1_func_init",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\Omnislash.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065543
+}

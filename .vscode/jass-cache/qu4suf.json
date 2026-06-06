@@ -1,0 +1,69 @@
+{
+  "filePath": "c:\\Users\\user\\Desktop\\vscode\\timer.j",
+  "items": [
+    {
+      "label": "t",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\ntimer t\n```\n\n\n**_>:** `timer.j`",
+      "sortText": "2_var_t",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\timer.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "totleTime",
+      "kind": 5,
+      "detail": "Global Variable",
+      "documentation": "\n```jass\nreal totleTime\n```\n\n\n**_>:** `timer.j`",
+      "sortText": "2_var_totleTime",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\timer.j",
+      "statementType": "VariableDeclaration"
+    },
+    {
+      "label": "HandleCenterTimer",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction HandleCenterTimer takes real s, boolean b, string c returns nothing\n```\n\n\n**_>:** `timer.j`",
+      "sortText": "1_func_HandleCenterTimer",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\timer.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Timer1",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Timer1 takes nothing returns nothing\n```\n\n\n**_>:** `timer.j`",
+      "sortText": "1_func_Timer1",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\timer.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Timer3",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Timer3 takes nothing returns nothing\n```\n\n\n**_>:** `timer.j`",
+      "sortText": "1_func_Timer3",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\timer.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "CenterTimer",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction CenterTimer takes nothing returns nothing\n```\n\n\n**_>:** `timer.j`",
+      "sortText": "1_func_CenterTimer",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\timer.j",
+      "statementType": "FunctionDeclaration"
+    },
+    {
+      "label": "Init_timers",
+      "kind": 2,
+      "detail": "Function",
+      "documentation": "\n```jass\nfunction Init_timers takes nothing returns nothing\n```\n\n\n**_>:** `timer.j`",
+      "sortText": "1_func_Init_timers",
+      "filePath": "c:\\Users\\user\\Desktop\\vscode\\timer.j",
+      "statementType": "FunctionDeclaration"
+    }
+  ],
+  "timestamp": 1778166065545
+}
