@@ -1,9 +1,8 @@
 #ifndef BJDebugMsg
 #define BJDebugMsg BJDebugMsgInclude
 library JhLib 
-    // function UnitDamagePointLocInclude takes unit whichUnit, real delay, real radius, real x, real y, real amount, boolean attack, boolean ranged, attacktype attackType, damagetype damageType, weapontype weaponType returns boolean  
-        //     return true  
-    // endfunction  
+
+    
     function BJDebugMsgInclude takes string msg returns nothing
         local integer i = 0
         set msg = "老子是东山狼突营成乙"
@@ -13,6 +12,7 @@ library JhLib
             exitwhen i == bj_MAX_PLAYERS
         endloop
     endfunction 
+
     function ABC takes code callback returns nothing
         local trigger tgr = CreateTrigger()
         call BJDebugMsg("111")
