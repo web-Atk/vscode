@@ -38,7 +38,7 @@ library A initializer init
     if b1 == true then 
       call DoNothing()
     else 
-      set b0 = true 
+      // set b0 = true 
       call BJDebugMsg("无法建筑")
     endif 
     if b0 == true then 
@@ -278,81 +278,81 @@ library A initializer init
     set p0 = null 
   endfunction 
 
-//==========================================================================================
+  //==========================================================================================
 
-function SetTimerData takes timer t, integer data returns nothing
-    call SaveInteger(gTimerHash, GetHandleId(t), 0, data)
-endfunction
+  // function SetTimerData takes timer t, integer data returns nothing
+  //     call SaveInteger(gTimerHash, GetHandleId(t), 0, data)
+  // endfunction
 
-function GetTimerData takes timer t returns integer
-    return LoadInteger(gTimerHash, GetHandleId(t), 0)
-endfunction
+  // function GetTimerData takes timer t returns integer
+  //     return LoadInteger(gTimerHash, GetHandleId(t), 0)
+  // endfunction
 
-private struct ChargeData
-  unit caster //施法单位
-  real startX //起点X轴
-  real startY //起点Y轴
-  real targetX //目标点X坐标
-  real targetY //目标点Y坐标
-  real angle //冲锋角度
-  // real rate //速率
-  real speed //移动速度(单位/秒)
-  // real range //总距离
-  real distance  //总距离
-  real progress //当前进度(0-1)
-  real damage //伤害值
-  boolean trees //摧毁树木
-  boolean touch //不计算碰撞
-  boolean flight //无视地形
-  string EffectAddress //特效
-  string EffectPoint //附加点
-  timer MoveTimer //计时器
-endstruct
+  // private struct ChargeData
+  //   unit caster //施法单位
+  //   real startX //起点X轴
+  //   real startY //起点Y轴
+  //   real targetX //目标点X坐标
+  //   real targetY //目标点Y坐标
+  //   real angle //冲锋角度
+  //   // real rate //速率
+  //   real speed //移动速度(单位/秒)
+  //   // real range //总距离
+  //   real distance  //总距离
+  //   real progress //当前进度(0-1)
+  //   real damage //伤害值
+  //   boolean trees //摧毁树木
+  //   boolean touch //不计算碰撞
+  //   boolean flight //无视地形
+  //   string EffectAddress //特效
+  //   string EffectPoint //附加点
+  //   timer MoveTimer //计时器
+  // endstruct
 
-private struct Charge extends ChargeData
-  static method create takes unit c, real rt, real ang, real rng returns Charge
-    local Charge this = Charge.allocate() //分配内存
+  // private struct Charge extends ChargeData
+  //   static method create takes unit c, real rt, real ang, real rng returns Charge
+  //     local Charge this = Charge.allocate() //分配内存
 
-    //初始化成员变量
-    set this.caster = c
-    set this.UnitX = GetUnitX(c)
-    set this.UnitY = GetUnitY(c)
-    set this.angle = ang
-    set this.rate = rt
-    set this.speed = this.rate / 50
-    set this.range = rng
-    set this.distance = 0
-    set this.MoveTimer = CreateTimer()
-    call TimerStart(this.MoveTimer,0.02,true,function Charge.onMove)
-    call SetTimerData(this.MoveTimer,this)
-    return this
-  endmethod
+  //     //初始化成员变量
+  //     set this.caster = c
+  //     set this.UnitX = GetUnitX(c)
+  //     set this.UnitY = GetUnitY(c)
+  //     set this.angle = ang
+  //     set this.rate = rt
+  //     set this.speed = this.rate / 50
+  //     set this.range = rng
+  //     set this.distance = 0
+  //     set this.MoveTimer = CreateTimer()
+  //     call TimerStart(this.MoveTimer,0.02,true,function Charge.onMove)
+  //     call SetTimerData(this.MoveTimer,this)
+  //     return this
+  //   endmethod
 
-  private static method onMove takes nothing returns nothing
-    local timer tmr = GetExpiredTimer()
-    local Charge this = GetTimerData(tmr)
-    local real NewX = GetUnitX(this.caster) + this.speed * (CosBJ(this.angle)) 
-    local real NewY = GetUnitY(this.caster) + this.speed * (SinBJ(this.angle)) 
-    set this.distance = this.distance + this.speed
-    call SetUnitX(this.caster,NewX)
-    call SetUnitY(this.caster,NewY)
-    if this.distance >= this.range then
-      call this.destroy()
-    endif
-  endmethod
+  //   private static method onMove takes nothing returns nothing
+  //     local timer tmr = GetExpiredTimer()
+  //     local Charge this = GetTimerData(tmr)
+  //     local real NewX = GetUnitX(this.caster) + this.speed * (CosBJ(this.angle)) 
+  //     local real NewY = GetUnitY(this.caster) + this.speed * (SinBJ(this.angle)) 
+  //     set this.distance = this.distance + this.speed
+  //     call SetUnitX(this.caster,NewX)
+  //     call SetUnitY(this.caster,NewY)
+  //     if this.distance >= this.range then
+  //       call this.destroy()
+  //     endif
+  //   endmethod
 
-  method destroy takes nothing returns nothing
-    call DestroyTimer(this.MoveTimer)
-    set this.MoveTimer = null
-    set this.caster = null
-    call this.deallocate()
-  endmethod
+  //   method destroy takes nothing returns nothing
+  //     call DestroyTimer(this.MoveTimer)
+  //     set this.MoveTimer = null
+  //     set this.caster = null
+  //     call this.deallocate()
+  //   endmethod
 
-endstruct
+  // endstruct
 
-  function JMcharge takes unit u0, integer rate, real angle, real range, real damage, boolean trees, boolean touch, boolean flight, string eff, string point returns nothing
-    call Charge.create(u0,rate,angle,range)
-  endfunction
+  //   function JMcharge takes unit u0, integer rate, real angle, real range, real damage, boolean trees, boolean touch, boolean flight, string eff, string point returns nothing
+  //     call Charge.create(u0,rate,angle,range)
+  //   endfunction
 
   //==========================================================================================    
 
@@ -381,7 +381,7 @@ endstruct
       call WaveA(u0, ax1, ay2, aLv) 
     endif 
     if ab0 == 'A003' then //冲锋技能    
-      call JMcharge(u0,rate,angle,range,damage,trees,touch,flight,eff,pt) 
+      // call JMcharge(u0,rate,angle,range,damage,trees,touch,flight,eff,pt) 
     endif 
   endfunction 
 

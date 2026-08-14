@@ -19,6 +19,6 @@ library demo initializer test
         call BJDebugMsg(I2S(iiii)) 
     endfunction 
 endlibrary 
-//快捷键：在光标区域切换下一行用Ctrl+ 回车 切换至上一行用Ctrl+ shift +回车  快速删除一行是Ctrl + shift + K 
-//快捷键：复制指定一行代码，shift + Alt + ↓  移动光标所指定该行代码，Alt + ↑ 或 Alt + ↓ 
-//快捷键：对齐，shift + Alt + F 
+//快捷键：在光标区域切换下一行用Ctrl+ 回车   切换至上一行用Ctrl+ shift +回车   快速删除一行是Ctrl + shift + K 
+//快捷键：复制指定一行代码，shift + Alt + ↓   移动光标所指定该行代码，Alt + ↑ 或 Alt + ↓ 
+//快捷键：对齐，shift + Alt + F   光标切回插入模式：Insert
