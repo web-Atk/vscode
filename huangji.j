@@ -10,9 +10,9 @@ library A initializer init
     //流沙移行         
     function displacement takes nothing returns nothing 
         local timer tmr0 = GetExpiredTimer() 
-        local unit u0 = LoadUnitHandle(HashSkill, GetHandleId(tmr0), 0) 
-        local unit u1 = LoadUnitHandle(HashSkill, GetHandleId(tmr0), 1) 
-        local location pt = LoadLocationHandle(HashSkill, GetHandleId(tmr0), 1) 
+        local unit u0 = LoadUnitHandle(HashSkill, GetHandleId(tmr0), 0) //马甲
+        local unit u1 = LoadUnitHandle(HashSkill, GetHandleId(tmr0), 1) //英雄
+        local location pt = LoadLocationHandle(HashSkill, GetHandleId(tmr0), 2) 
         local real ux1 = GetUnitX(u0) 
         local real uy2 = GetUnitY(u0) 
         local real ux3 = GetUnitX(u1) 
@@ -33,7 +33,7 @@ library A initializer init
             if GetUnitTypeId(u0) == 'hfoo' then 
                 call ResetUnitAnimation(u0) 
             endif 
-            call RemoveLocation(pt) 
+            // call RemoveLocation(pt) //提早删除点，导致当有两个马甲同时移动时，另一个马甲的点会丢失
             call FlushChildHashtable(HashSkill, GetHandleId(tmr0)) 
             call DestroyTimer(tmr0) 
         else 
@@ -210,7 +210,7 @@ library A initializer init
                 // call SetUnitAnimation(target,"walk")  
                 call SetUnitAnimationByIndex(target, 1) 
                 call SaveUnitHandle(HashSkill, GetHandleId(tmr1), 0, target) 
-                call SaveLocationHandle(HashSkill, GetHandleId(tmr1), 1, pt) 
+                call SaveLocationHandle(HashSkill, GetHandleId(tmr1), 2, pt) 
                 // call SaveReal(HashSkill, GetHandleId(tmr1), 2, angle)    
                 // call SaveInteger(HashSkill, GetHandleId(tmr1), 3, 3)    
                 call TimerStart(tmr1, 0.02, true, function displacement) 
